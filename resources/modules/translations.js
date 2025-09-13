@@ -64,7 +64,7 @@ export const fetchTranslations = async () => {
     try {
         const currentLang = state.currentLanguage || 'en';
         // Fetch interface translations with proper error handling
-        const interfacePath = `./assets/interface_translations/${currentLang}/interface_translations.json`;
+        const interfacePath = `./resources/interface_translations/${currentLang}/interface_translations.json`;
         const interface_response = await fetch(interfacePath);
         if (!interface_response.ok) {
             console.warn('Interface translations not found, using defaults');
@@ -299,7 +299,7 @@ export const updateLanguageDropdownFromAppConfig = async () => {
 
     for (const lang of window.appConfig.languages.available) {
         try {
-            const response = await fetch(`./assets/interface_translations/${lang}/interface_translations.json`);
+            const response = await fetch(`./resources/interface_translations/${lang}/interface_translations.json`);
             if (!response.ok) continue;
             const interfaceData = await response.json();
             // Try to get the language name from the loaded data

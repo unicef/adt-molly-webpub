@@ -43,13 +43,13 @@ let isProcessingAudio = false;
 export const initializeActivityAudioElements = () => {
     if (!activityAudio) {
         activityAudio = {
-            drop: new Audio('./assets/sounds/drop.mp3'),
-            success: new Audio('./assets/sounds/success.mp3'),
-            error: new Audio('./assets/sounds/error.mp3'),
-            reset: new Audio('./assets/sounds/reset.mp3'),
-            validate_success: new Audio('./assets/sounds/validate_success.mp3'),
-            //validate_error: new Audio('./assets/sounds/validate_error.mp3'),
-            validate_error: new Audio('./assets/sounds/drop.mp3'),
+            drop: new Audio('./resources/sounds/drop.mp3'),
+            success: new Audio('./resources/sounds/success.mp3'),
+            error: new Audio('./resources/sounds/error.mp3'),
+            reset: new Audio('./resources/sounds/reset.mp3'),
+            validate_success: new Audio('./resources/sounds/validate_success.mp3'),
+            //validate_error: new Audio('./resources/sounds/validate_error.mp3'),
+            validate_error: new Audio('./resources/sounds/drop.mp3'),
         };
 
         Object.values(activityAudio).forEach(audio => {

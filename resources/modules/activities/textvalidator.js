@@ -40,7 +40,7 @@ class TextValidator {
       // Then try to load the full dictionary to supplement
       try {
         // Load the Spanish dictionary directly from the .dic file as text
-        const response = await fetch('./assets/modules/activities/index.dic');
+        const response = await fetch('./resources/modules/activities/index.dic');
         const dicText = await response.text();
         console.log('Dictionary loaded');
         

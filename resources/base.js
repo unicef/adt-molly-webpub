@@ -210,11 +210,11 @@ async function initializeApp() {
 
 function addFavicons() {
   const faviconLinks = [
-    { rel: "icon", type: "image/x-icon", href: "./assets/favicon_io/favicon.ico" },
-    { rel: "apple-touch-icon", sizes: "180x180", href: "./assets/favicon_io/apple-touch-icon.png" },
-    { rel: "icon", type: "image/png", sizes: "32x32", href: "./assets/favicon_io/favicon-32x32.png" },
-    { rel: "icon", type: "image/png", sizes: "16x16", href: "./assets/favicon_io/favicon-16x16.png" },
-    { rel: "manifest", href: "./assets/favicon_io/site.webmanifest" }
+    { rel: "icon", type: "image/x-icon", href: "./resources/favicon_io/favicon.ico" },
+    { rel: "apple-touch-icon", sizes: "180x180", href: "./resources/favicon_io/apple-touch-icon.png" },
+    { rel: "icon", type: "image/png", sizes: "32x32", href: "./resources/favicon_io/favicon-32x32.png" },
+    { rel: "icon", type: "image/png", sizes: "16x16", href: "./resources/favicon_io/favicon-16x16.png" },
+    { rel: "manifest", href: "./resources/favicon_io/site.webmanifest" }
   ];
 
   faviconLinks.forEach(linkData => {
@@ -342,12 +342,12 @@ async function fetchAndInjectComponents() {
   try {
     // Fetch interface and navigation
     const [interfaceHTML, navHTML] = await Promise.all([
-      fetch("./assets/interface.html").then(response => response.text()),
+      fetch("./resources/interface.html").then(response => response.text()),
       fetch("./content/navigation/nav.html").then(response => response.text())
     ]);
     
     // Fetch config as JSON instead of HTML
-    const configResponse = await fetch("./assets/config.json");
+    const configResponse = await fetch("./resources/config.json");
     const config = await configResponse.json();
     
     // Pass the config object instead of HTML string
