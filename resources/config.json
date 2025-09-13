@@ -2,7 +2,7 @@
   "title": "molly-storybook",
   "languages": {
     "available": [
-      "en", "es", "fr", "zh"
+      "en", "es"
     ],
     "default": "en"
   },

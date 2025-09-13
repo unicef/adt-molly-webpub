@@ -86,10 +86,39 @@ import { initMatomo } from "./modules/analytics.js";
 
 // Constants
 const PLACEHOLDER_TITLE = "Accessible Digital Textbook";
+
+// Function to determine the correct resource path based on current location
+function getResourcePath() {
+  const currentPath = window.location.pathname;
+  
+  // If we're in a subdirectory (like /content/), we need to go up one level
+  if (currentPath.includes('/content/')) {
+    return '../resources/';
+  }
+  
+  // If we're at the root level, use relative path
+  return './resources/';
+}
+
+// Function to determine the correct navigation path
+function getNavPath() {
+  const currentPath = window.location.pathname;
+  
+  // If we're in a subdirectory (like /content/), we need to go up one level
+  if (currentPath.includes('/content/')) {
+    return '../content/';
+  }
+  
+  // If we're at the root level, use relative path
+  return './content/';
+}
+
 const basePath = window.location.pathname.substring(
   0,
   window.location.pathname.lastIndexOf("/") + 1
 );
+
+const RESOURCE_PATH = getResourcePath();
 
 // Create a centralized asset loader
 const assetLoader = {
@@ -210,11 +239,11 @@ async function initializeApp() {
 
 function addFavicons() {
   const faviconLinks = [
-    { rel: "icon", type: "image/x-icon", href: "./resources/favicon_io/favicon.ico" },
-    { rel: "apple-touch-icon", sizes: "180x180", href: "./resources/favicon_io/apple-touch-icon.png" },
-    { rel: "icon", type: "image/png", sizes: "32x32", href: "./resources/favicon_io/favicon-32x32.png" },
-    { rel: "icon", type: "image/png", sizes: "16x16", href: "./resources/favicon_io/favicon-16x16.png" },
-    { rel: "manifest", href: "./resources/favicon_io/site.webmanifest" }
+    { rel: "icon", type: "image/x-icon", href: `${RESOURCE_PATH}favicon_io/favicon.ico` },
+    { rel: "apple-touch-icon", sizes: "180x180", href: `${RESOURCE_PATH}favicon_io/apple-touch-icon.png` },
+    { rel: "icon", type: "image/png", sizes: "32x32", href: `${RESOURCE_PATH}favicon_io/favicon-32x32.png` },
+    { rel: "icon", type: "image/png", sizes: "16x16", href: `${RESOURCE_PATH}favicon_io/favicon-16x16.png` },
+    { rel: "manifest", href: `${RESOURCE_PATH}favicon_io/site.webmanifest` }
   ];
 
   faviconLinks.forEach(linkData => {
@@ -342,12 +371,12 @@ async function fetchAndInjectComponents() {
   try {
     // Fetch interface and navigation
     const [interfaceHTML, navHTML] = await Promise.all([
-      fetch("./resources/interface.html").then(response => response.text()),
-      fetch("./content/navigation/nav.html").then(response => response.text())
+      fetch(`${RESOURCE_PATH}interface.html`).then(response => response.text()),
+      fetch(`${getNavPath()}navigation/nav.html`).then(response => response.text())
     ]);
     
     // Fetch config as JSON instead of HTML
-    const configResponse = await fetch("./resources/config.json");
+    const configResponse = await fetch(`${RESOURCE_PATH}config.json`);
     const config = await configResponse.json();
     
     // Pass the config object instead of HTML string

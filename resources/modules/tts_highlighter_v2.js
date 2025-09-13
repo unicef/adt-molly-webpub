@@ -31,7 +31,10 @@ async function loadTimecodeForElement(elementId) {
   }
   
   // Format: timecodes/[lang]/timecode_output.json
-  const timecodeJsonUrl = `./content/i18n/${state.currentLanguage}/timecode/timecode_output.json`;
+  // Determine the correct content path based on current location
+  const currentPath = window.location.pathname;
+  const contentPath = currentPath.includes('/content/') ? '../content/' : './content/';
+  const timecodeJsonUrl = `${contentPath}i18n/${state.currentLanguage}/timecode/timecode_output.json`;
   
   try {
     const response = await fetch(timecodeJsonUrl);

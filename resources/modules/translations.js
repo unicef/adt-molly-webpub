@@ -63,8 +63,12 @@ const safeJsonParse = async (response, errorContext) => {
 export const fetchTranslations = async () => {
     try {
         const currentLang = state.currentLanguage || 'en';
+        // Determine the correct resource path based on current location
+        const currentPath = window.location.pathname;
+        const resourcePath = currentPath.includes('/content/') ? '../resources/' : './resources/';
+        
         // Fetch interface translations with proper error handling
-        const interfacePath = `./resources/interface_translations/${currentLang}/interface_translations.json`;
+        const interfacePath = `${resourcePath}interface_translations/${currentLang}/interface_translations.json`;
         const interface_response = await fetch(interfacePath);
         if (!interface_response.ok) {
             console.warn('Interface translations not found, using defaults');
@@ -74,7 +78,8 @@ export const fetchTranslations = async () => {
         const interface_data = await safeJsonParse(interface_response, 'interface translations');
 
         // Fetch content files (texts, audios, videos) from the language-specific path
-        await fetchContentFiles(`./content/i18n/${currentLang}`);
+        const contentPath = currentPath.includes('/content/') ? '../content/' : './content/';
+        await fetchContentFiles(`${contentPath}i18n/${currentLang}`);
 
         // Merge translations if interface data exists for current language
         if (interface_data) {
@@ -299,7 +304,11 @@ export const updateLanguageDropdownFromAppConfig = async () => {
 
     for (const lang of window.appConfig.languages.available) {
         try {
-            const response = await fetch(`./resources/interface_translations/${lang}/interface_translations.json`);
+            // Determine the correct resource path based on current location
+            const currentPath = window.location.pathname;
+            const resourcePath = currentPath.includes('/content/') ? '../resources/' : './resources/';
+            
+            const response = await fetch(`${resourcePath}interface_translations/${lang}/interface_translations.json`);
             if (!response.ok) continue;
             const interfaceData = await response.json();
             // Try to get the language name from the loaded data

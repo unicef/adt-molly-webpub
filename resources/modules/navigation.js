@@ -13,14 +13,23 @@ import { cycleLanguage } from "./translations.js";
  * @param {Event} event - The navigation event.
  */
 export const handleNavigation = (event) => {
-  if (
-    event.target.matches(".nav__list-link") ||
-    event.target.id === "back-button" ||
-    event.target.id === "forward-button"
-  ) {
+  // Handle back and forward buttons directly
+  if (event.target.id === "back-button") {
     event.preventDefault();
-    const targetHref =
-      event.target.href || event.target.getAttribute("data-href");
+    previousPage();
+    return;
+  }
+  
+  if (event.target.id === "forward-button") {
+    event.preventDefault();
+    nextPage();
+    return;
+  }
+  
+  // Handle navigation links
+  if (event.target.matches(".nav__list-link")) {
+    event.preventDefault();
+    const targetHref = event.target.href || event.target.getAttribute("data-href");
 
     if (!targetHref) {
       console.error(
@@ -228,10 +237,12 @@ export const nextPage = () => {
     navItems.map((item) => item.getAttribute("href"))
   ); // Debug log
 
-  // Find current page index
-  const currentIndex = navItems.findIndex(
-    (item) => item.getAttribute("href") === currentHref
-  );
+  // Find current page index by comparing just the filename
+  const currentIndex = navItems.findIndex((item) => {
+    const navHref = item.getAttribute("href");
+    const navFilename = navHref.split("/").pop();
+    return navFilename === currentHref;
+  });
   console.log("Current index:", currentIndex); // Debug log
 
   if (currentIndex >= 0 && currentIndex < navItems.length - 1) {
@@ -272,9 +283,13 @@ export const nextPage = () => {
 export const previousPage = () => {
   const currentHref = window.location.href.split("/").pop() || "index.html";
   const navItems = Array.from(document.querySelectorAll(".nav__list-link"));
-  const currentIndex = navItems.findIndex(
-    (item) => item.getAttribute("href") === currentHref
-  );
+  
+  // Find current page index by comparing just the filename
+  const currentIndex = navItems.findIndex((item) => {
+    const navHref = item.getAttribute("href");
+    const navFilename = navHref.split("/").pop();
+    return navFilename === currentHref;
+  });
 
   if (currentIndex > 0) {
     const navList = document.querySelector(".nav__list");

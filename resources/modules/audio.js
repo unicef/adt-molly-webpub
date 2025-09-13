@@ -37,19 +37,35 @@ let activityAudio = null;
 let isProcessingAudio = false;
 
 /**
+ * Function to determine the correct resource path based on current location
+ */
+function getResourcePath() {
+    const currentPath = window.location.pathname;
+    
+    // If we're in a subdirectory (like /content/), we need to go up one level
+    if (currentPath.includes('/content/')) {
+        return '../resources/';
+    }
+    
+    // If we're at the root level, use relative path
+    return './resources/';
+}
+
+/**
  * Initializes activity audio elements for sound effects.
  * @returns {Object} activityAudio - Map of sound effect Audio objects.
  */
 export const initializeActivityAudioElements = () => {
     if (!activityAudio) {
+        const resourcePath = getResourcePath();
         activityAudio = {
-            drop: new Audio('./resources/sounds/drop.mp3'),
-            success: new Audio('./resources/sounds/success.mp3'),
-            error: new Audio('./resources/sounds/error.mp3'),
-            reset: new Audio('./resources/sounds/reset.mp3'),
-            validate_success: new Audio('./resources/sounds/validate_success.mp3'),
-            //validate_error: new Audio('./resources/sounds/validate_error.mp3'),
-            validate_error: new Audio('./resources/sounds/drop.mp3'),
+            drop: new Audio(`${resourcePath}sounds/drop.mp3`),
+            success: new Audio(`${resourcePath}sounds/success.mp3`),
+            error: new Audio(`${resourcePath}sounds/error.mp3`),
+            reset: new Audio(`${resourcePath}sounds/reset.mp3`),
+            validate_success: new Audio(`${resourcePath}sounds/validate_success.mp3`),
+            //validate_error: new Audio(`${resourcePath}sounds/validate_error.mp3`),
+            validate_error: new Audio(`${resourcePath}sounds/drop.mp3`),
         };
 
         Object.values(activityAudio).forEach(audio => {

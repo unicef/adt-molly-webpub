@@ -564,7 +564,12 @@ export const loadGlossaryTerms = async () => {
   try {
     // Fallback to "es" if state.currentLanguage is not set
     const language = state.currentLanguage || "es";
-    const response = await fetch(`./content/i18n/${language}/glossary.json`);
+    
+    // Determine the correct content path based on current location
+    const currentPath = window.location.pathname;
+    const contentPath = currentPath.includes('/content/') ? '../content/' : './content/';
+    
+    const response = await fetch(`${contentPath}i18n/${language}/glossary.json`);
     const data = await response.json();
     glossaryTerms = data;
     state.glossaryTerms = data;
@@ -1195,9 +1200,32 @@ export const togglePlayBarSettings = () => {
 export const formatNavigationItems = () => {
   const navListItems = document.querySelectorAll(".nav__list-item");
 
+  // Determine if we're in a subdirectory that needs path adjustment
+  const currentPath = window.location.pathname;
+  const isInContentDir = currentPath.includes('/content/');
+
   navListItems.forEach((item, index) => {
     const link = item.querySelector(".nav__list-link");
     if (!link) return;
+
+    // Fix navigation paths based on current location
+    let linkHref = link.getAttribute("href");
+    if (linkHref) {
+      // If we're in root and link points to content files, add content/ prefix
+      if (!isInContentDir && linkHref.startsWith("../sec_")) {
+        linkHref = linkHref.replace("../", "content/");
+      }
+      // If we're in content dir and link points to root, fix the path
+      else if (isInContentDir && linkHref === "../../index.html") {
+        linkHref = "../index.html";
+      }
+      // If we're in content dir and link points to other content files
+      else if (isInContentDir && linkHref.startsWith("../sec_")) {
+        linkHref = linkHref.replace("../", "");
+      }
+      
+      link.setAttribute("href", linkHref);
+    }
 
     // Setup basic classes for the item and link
     item.classList.add(
