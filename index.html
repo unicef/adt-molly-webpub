@@ -30,23 +30,54 @@
         <meta itemprop="copyrightYear" content="2007" />
         <meta itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="" content="Ministry of Education, Jamaica" />
     </div>
-    <main class="max-w-[400px] mx-auto p-4 bg-white">
-        <div class="cover mb-8" id="cover">
-            <figure class="text-center">
-                <img alt="Cover of Molly Hopper Learns to Jump, a Grade 1 book from the Windows to Literacy series by the Ministry of Education, Jamaica. Written by Donna Hemans and illustrated by Rachel Wade."
-                    src="cover.jpg" class="mx-auto max-w-sm w-full h-auto rounded-lg" />
-            </figure>
-        </div>
+    <main class="container mx-auto w-full px-8 py-8">
+        <div class="flex flex-col lg:flex-row px-8 max-w-none w-full">
+            <!-- Left column for cover (span 3) - stacks above content on mobile -->
+            <div class="basis-full lg:basis-2/5 p-4 lg:mr-4 flex flex-col items-center order-1 lg:order-none">
+                <div class="cover" id="cover">
+                    <figure class="text-center">
+                        <img alt="Cover of Molly Hopper Learns to Jump, a Grade 1 book from the Windows to Literacy series by the Ministry of Education, Jamaica. Written by Donna Hemans and illustrated by Rachel Wade."
+                            src="cover.jpg" class="mx-auto w-full h-auto rounded-lg" />
+                    </figure>
+                </div>
+            </div>
+            
+            <!-- Right column for content (span 2) - stacks below cover on mobile -->
+            <div class="basis-full lg:basis-3/5 p-4 flex flex-col order-2 lg:order-none">
 
-        <div class="titlepage mb-8 text-center" id="titlepage">
-            <h1 class="text-2xl font-bold text-gray-800 mb-4">Molly Hopper Learns to Jump</h1>
-            <p class="subtitle text-xl text-blue-600 font-semibold mb-6">Windows to Literacy - Grade 1</p>
-            <p class="author text-lg text-gray-700 mb-2">Written by <span class="font-semibold">Donna Hemans</span></p>
-            <p class="illustrator text-lg text-gray-700 mb-2">Illustrated by <span class="font-semibold">Rachel Wade</span></p>
-            <p class="publisher text-lg text-blue-700 font-medium">Ministry of Education, Jamaica</p>
-        </div>
+                <div class="titlepage mb-8 text-center" id="titlepage">
+                    <h1 class="text-2xl font-bold text-gray-800 mb-4">Molly Hopper Learns to Jump</h1>
+                    <p class="subtitle text-xl text-blue-600 font-semibold mb-6">Windows to Literacy - Grade 1</p>
+                    <p class="author text-lg text-gray-700 mb-2">Written by <span class="font-semibold">Donna Hemans</span></p>
+                    <p class="illustrator text-lg text-gray-700 mb-2">Illustrated by <span class="font-semibold">Rachel Wade</span></p>
+                    <p class="publisher text-lg text-blue-700 font-medium">Ministry of Education, Jamaica</p>
+                </div>
+                
+                <nav id="toc" role="doc-toc" class="mb-8">
+                    <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Table of Contents</h1>
+                    <div class="bg-white rounded-lg">
+                        <ol class="p-4">
+                            <li class="p-2"><a href="#cover" class="text-blue-600 font-medium">Cover</a></li>
+                            <li class="p-2"><a href="#titlepage" class="text-blue-600 font-medium">Title Page</a></li>
+                            <li class="p-2"><a href="#creditos" class="text-blue-600 font-medium">Credits</a></li>
+                            <li class="p-2 bg-blue-50 rounded mt-4">
+                                <span class="text-lg font-semibold text-gray-800 mb-3 block">Story Pages</span>
+                                <ol class="p-2">
+                                    <li class="mb-1"><a href="content/sec_p5_s0.html" class="text-blue-600">Page 1</a></li>
+                                    <li class="mb-1"><a href="content/sec_p6_s0.html" class="text-blue-600">Page 2</a></li>
+                                    <li class="mb-1"><a href="content/sec_p7_s0.html" class="text-blue-600">Page 3</a></li>
+                                    <li class="mb-1"><a href="content/sec_p8_s0.html" class="text-blue-600">Page 4</a></li>
+                                    <li class="mb-1"><a href="content/sec_p9_s0.html" class="text-blue-600">Page 5</a></li>
+                                    <li class="mb-1"><a href="content/sec_p10_s0.html" class="text-blue-600">Page 6</a></li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                </nav>
 
-        <div class="creditos mb-8" id="creditos" role="doc-credits">
+                
+
+                <div class="creditos mb-8" id="creditos" role="doc-credits">
             <h2 class="text-2xl font-bold text-gray-800 mb-6">Publication Information</h2>
             <div class="bg-blue-50 p-4 rounded-lg mb-6">
                 <p class="text-gray-700 mb-2 font-medium">© Ministry of Education, Jamaica, 2007</p>
@@ -92,28 +123,6 @@
                 </div>
             </div>
         </div>
-        
-        <nav id="toc" role="doc-toc" class="mb-8">
-            <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Table of Contents</h1>
-            <div class="bg-white rounded-lg">
-                <ol class="p-4">
-                    <li class="p-2"><a href="#cover" class="text-blue-600 font-medium">Cover</a></li>
-                    <li class="p-2"><a href="#titlepage" class="text-blue-600 font-medium">Title Page</a></li>
-                    <li class="p-2"><a href="#creditos" class="text-blue-600 font-medium">Credits</a></li>
-                    <li class="p-2 bg-blue-50 rounded mt-4">
-                        <span class="text-lg font-semibold text-gray-800 mb-3 block">Story Pages</span>
-                        <ol class="p-2">
-                            <li class="mb-1"><a href="content/sec_p5_s0.html" class="text-blue-600">Page 1</a></li>
-                            <li class="mb-1"><a href="content/sec_p6_s0.html" class="text-blue-600">Page 2</a></li>
-                            <li class="mb-1"><a href="content/sec_p7_s0.html" class="text-blue-600">Page 3</a></li>
-                            <li class="mb-1"><a href="content/sec_p8_s0.html" class="text-blue-600">Page 4</a></li>
-                            <li class="mb-1"><a href="content/sec_p9_s0.html" class="text-blue-600">Page 5</a></li>
-                            <li class="mb-1"><a href="content/sec_p10_s0.html" class="text-blue-600">Page 6</a></li>
-                        </ol>
-                    </li>
-                </ol>
-            </div>
-        </nav>
     </main>
 
     <div class="relative z-50" id="interface-container"></div>
