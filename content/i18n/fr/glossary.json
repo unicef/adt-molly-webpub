@@ -1,0 +1,367 @@
+{
+  "ann\u00e9e": {
+    "word": "ann\u00e9e",
+    "definition": "Une p\u00e9riode de 12 mois. \"L'ann\u00e9e derni\u00e8re\" signifie l'ann\u00e9e pr\u00e9c\u00e9dant celle-ci.",
+    "variations": [
+      "ann\u00e9es"
+    ],
+    "emoji": "\ud83d\udcc5\ud83d\uddd3\ufe0f"
+  },
+  "arr\u00eater": {
+    "word": "arr\u00eater",
+    "definition": "Ne plus faire quelque chose; mettre fin \u00e0 une action.",
+    "variations": [
+      "arr\u00eate",
+      "arr\u00eat\u00e9",
+      "arr\u00eatant"
+    ],
+    "emoji": "\u270b\u26d4\ufe0f"
+  },
+  "club": {
+    "word": "club",
+    "definition": "un groupe de personnes se r\u00e9unissant ou jouant ensemble autour d\u2019une activit\u00e9 commune.",
+    "variations": [
+      "club",
+      "clubs"
+    ],
+    "emoji": "\ud83d\udc65\ud83e\udd1d"
+  },
+  "course": {
+    "word": "course",
+    "definition": "Une comp\u00e9tition pour d\u00e9terminer qui est le plus rapide ou qui peut aller le plus loin.",
+    "variations": [
+      "course",
+      "courses",
+      "a disput\u00e9 une course",
+      "disputant une course"
+    ],
+    "emoji": "\ud83c\udfc1\ud83c\udfc3\u200d\u2640\ufe0f"
+  },
+  "course en sac": {
+    "word": "course en sac",
+    "definition": "Une course o\u00f9 les participants se tiennent dans de grands sacs et sautent jusqu'\u00e0 la ligne d'arriv\u00e9e.",
+    "variations": [
+      "course en sac",
+      "course-en-sac",
+      "courses en sac"
+    ],
+    "emoji": "\ud83e\udd54\ud83c\udfc1"
+  },
+  "cricket": {
+    "word": "cricket",
+    "definition": "un sport de batte et de balle pratiqu\u00e9 par deux \u00e9quipes ; les joueurs cherchent \u00e0 marquer des points.",
+    "variations": [
+      "cricket"
+    ],
+    "emoji": "\ud83c\udfcf\ud83c\udf0d"
+  },
+  "dehors": {
+    "word": "dehors",
+    "definition": "\u00c0 l\u2019ext\u00e9rieur d\u2019un b\u00e2timent ; en plein air.",
+    "variations": [
+      "dehors",
+      "en plein air"
+    ],
+    "emoji": "\ud83c\udf24\ufe0f\ud83c\udf33"
+  },
+  "devoir": {
+    "word": "devoir",
+    "definition": "indique que quelque chose est n\u00e9cessaire ou obligatoire.",
+    "variations": [
+      "devoir",
+      "doit",
+      "a d\u00fb"
+    ],
+    "emoji": "\u2705\u23f0"
+  },
+  "effray\u00e9": {
+    "word": "effray\u00e9",
+    "definition": "qui ressent de la peur ; effray\u00e9",
+    "variations": [
+      "plus effray\u00e9",
+      "le plus effray\u00e9"
+    ],
+    "emoji": "\ud83d\ude28\ud83d\ude1f"
+  },
+  "enfant": {
+    "word": "enfant",
+    "definition": "Une jeune personne qui n'est pas encore adulte.",
+    "variations": [
+      "enfant",
+      "enfants"
+    ],
+    "emoji": "\ud83e\uddd2\ud83d\udc67"
+  },
+  "fen\u00eatre": {
+    "word": "fen\u00eatre",
+    "definition": "Une ouverture dans un mur, ferm\u00e9e par du verre, \u00e0 travers laquelle on peut voir.",
+    "variations": [
+      "fen\u00eatre",
+      "fen\u00eatres"
+    ],
+    "emoji": "\ud83e\ude9f\ud83d\udc40\ud83c\udfe0"
+  },
+  "finir": {
+    "word": "finir",
+    "definition": "Terminer quelque chose ; en avoir fini.",
+    "variations": [
+      "finir",
+      "finit",
+      "fini",
+      "finissant"
+    ],
+    "emoji": "\u2705\ud83c\udfc1"
+  },
+  "gagner": {
+    "word": "gagner",
+    "definition": "Arriver premier lors d\u2019un jeu ou d\u2019un concours.",
+    "variations": [
+      "gagner",
+      "gagne",
+      "gagn\u00e9",
+      "gagnant"
+    ],
+    "emoji": "\ud83c\udfc6\ud83c\udf89"
+  },
+  "graine": {
+    "word": "graine",
+    "definition": "Une petite partie d'une plante qui peut pousser pour devenir une nouvelle plante.",
+    "variations": [
+      "graine",
+      "graines"
+    ],
+    "emoji": "\ud83c\udf31\ud83c\udf3e"
+  },
+  "grenouille": {
+    "word": "grenouille",
+    "definition": "Un petit animal qui peut vivre dans l'eau et sur la terre ferme. Elle saute et coasse.",
+    "variations": [
+      "grenouilles"
+    ],
+    "emoji": "\ud83d\udc38\ud83c\udf3f"
+  },
+  "haut": {
+    "word": "haut",
+    "definition": "Situ\u00e9 \u00e0 une grande hauteur au-dessus du sol; loin vers le haut.",
+    "variations": [
+      "haut",
+      "plus haut",
+      "le plus haut"
+    ],
+    "emoji": "\ud83d\udd3c\u26f0\ufe0f"
+  },
+  "heureux": {
+    "word": "heureux",
+    "definition": "Se sentir bien ou satisfait.",
+    "variations": [
+      "heureux",
+      "plus heureux",
+      "le plus heureux",
+      "heureusement"
+    ],
+    "emoji": "\ud83d\ude0a\ud83c\udf89\ud83d\udc9b"
+  },
+  "jouer": {
+    "word": "jouer",
+    "definition": "participer \u00e0 un jeu ou \u00e0 un sport.",
+    "variations": [
+      "jouer",
+      "joue",
+      "jou\u00e9",
+      "jouant"
+    ],
+    "emoji": "\ud83c\udfaf\u26bd"
+  },
+  "le meilleur": {
+    "word": "le meilleur",
+    "definition": "le niveau de qualit\u00e9 ou de comp\u00e9tence le plus \u00e9lev\u00e9; sup\u00e9rieur \u00e0 tous les autres.",
+    "variations": [
+      "bon",
+      "meilleur",
+      "le meilleur"
+    ],
+    "emoji": "\ud83e\udd47\u2b50"
+  },
+  "long": {
+    "word": "long",
+    "definition": "Qui s\u2019\u00e9tend sur une grande distance d\u2019une extr\u00e9mit\u00e9 \u00e0 l\u2019autre.",
+    "variations": [
+      "long",
+      "plus long",
+      "le plus long"
+    ],
+    "emoji": "\ud83d\udccf\u2194\ufe0f"
+  },
+  "mais": {
+    "word": "mais",
+    "definition": "un mot utilis\u00e9 pour marquer un contraste entre deux id\u00e9es.",
+    "variations": [
+      "mais"
+    ],
+    "emoji": "\ud83d\udd00\u2696\ufe0f"
+  },
+  "maison": {
+    "word": "maison",
+    "definition": "Un b\u00e2timent o\u00f9 vivent des gens.",
+    "variations": [
+      "maison",
+      "maisons"
+    ],
+    "emoji": "\ud83c\udfe0"
+  },
+  "m\u00e8re": {
+    "word": "m\u00e8re",
+    "definition": "Une femme qui est parent.",
+    "variations": [
+      "m\u00e8re",
+      "m\u00e8res"
+    ],
+    "emoji": "\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66"
+  },
+  "ne pas pouvoir": {
+    "word": "ne pas pouvoir",
+    "definition": "Ne pas \u00eatre capable de faire quelque chose.",
+    "variations": [
+      "ne peut pas",
+      "ne peux pas",
+      "ne peuvent pas"
+    ],
+    "emoji": "\ud83d\udeab\ud83d\ude45\u200d\u2642\ufe0f"
+  },
+  "pluie": {
+    "word": "pluie",
+    "definition": "Eau qui tombe des nuages. \u00ab Il pleut \u00bb signifie que la pluie tombe maintenant.",
+    "variations": [
+      "pluie",
+      "pleut",
+      "a plu",
+      "pleuvant",
+      "pluvieux"
+    ],
+    "emoji": "\ud83c\udf27\ufe0f\u2614\ufe0f\ud83d\udca7"
+  },
+  "pouvoir": {
+    "word": "pouvoir",
+    "definition": "Indique que quelque chose pourrait se produire.",
+    "variations": [
+      "pouvoir"
+    ],
+    "emoji": "\u2753\ud83c\udfb2"
+  },
+  "prendre la place de quelqu\u2019un": {
+    "word": "prendre la place de quelqu\u2019un",
+    "definition": "effectuer le travail ou assumer le r\u00f4le de quelqu\u2019un \u00e0 sa place",
+    "variations": [
+      "prend la place de quelqu\u2019un",
+      "a pris la place de quelqu\u2019un",
+      "prenant la place de quelqu\u2019un"
+    ],
+    "emoji": "\ud83d\udd01\ud83d\udc65"
+  },
+  "prix": {
+    "word": "prix",
+    "definition": "Ce que l'on re\u00e7oit lorsqu'on gagne.",
+    "variations": [
+      "prix",
+      "prix"
+    ],
+    "emoji": "\ud83c\udf96\ufe0f\ud83c\udf81"
+  },
+  "r\u00e9union": {
+    "word": "r\u00e9union",
+    "definition": "Un moment o\u00f9 des personnes se r\u00e9unissent pour discuter, planifier ou prendre des d\u00e9cisions.",
+    "variations": [
+      "r\u00e9union",
+      "r\u00e9unions"
+    ],
+    "emoji": "\ud83d\uddd3\ufe0f\ud83d\udde3\ufe0f"
+  },
+  "salon": {
+    "word": "salon",
+    "definition": "La pi\u00e8ce principale d'un logement o\u00f9 les gens s'assoient, parlent et se d\u00e9tendent.",
+    "variations": [
+      "salon",
+      "salons",
+      "salon"
+    ],
+    "emoji": "\ud83d\udecb\ufe0f\ud83c\udfe0"
+  },
+  "sauter": {
+    "word": "sauter",
+    "definition": "Se propulser depuis le sol pour s\u2019\u00e9lever dans les airs.",
+    "variations": [
+      "sauter",
+      "saute",
+      "saut\u00e9",
+      "sautant"
+    ],
+    "emoji": "\ud83e\udd98\u2b06\ufe0f"
+  },
+  "sauteur": {
+    "word": "sauteur",
+    "definition": "une personne qui saute, en particulier dans des comp\u00e9titions sportives.",
+    "variations": [
+      "sauteur",
+      "sauteurs"
+    ],
+    "emoji": "\ud83e\udd98\ud83c\udfc5"
+  },
+  "s\u2019exercer": {
+    "word": "s\u2019exercer",
+    "definition": "Faire quelque chose \u00e0 plusieurs reprises pour s\u2019am\u00e9liorer.",
+    "variations": [
+      "s\u2019exercer",
+      "s\u2019exerce",
+      "exerc\u00e9",
+      "s\u2019exer\u00e7ant",
+      "entra\u00eenement",
+      "entra\u00eenements",
+      "exerc\u00e9",
+      "s\u2019exer\u00e7ant"
+    ],
+    "emoji": "\ud83d\udd01\ud83c\udfaf"
+  },
+  "termin\u00e9": {
+    "word": "termin\u00e9",
+    "definition": "Fini; achev\u00e9. \u00ab La r\u00e9union est termin\u00e9e \u00bb signifie qu'elle est finie.",
+    "variations": [
+      "termin\u00e9"
+    ],
+    "emoji": "\u2705\ud83d\udd1a"
+  },
+  "tout le temps": {
+    "word": "tout le temps",
+    "definition": "toujours; se produisant tr\u00e8s souvent ou sans interruption",
+    "variations": [
+      "tout le temps"
+    ],
+    "emoji": "\ud83d\udd52\u267e\ufe0f"
+  },
+  "vendredi": {
+    "word": "vendredi",
+    "definition": "le cinqui\u00e8me jour de la semaine, apr\u00e8s le jeudi.",
+    "variations": [
+      "vendredi",
+      "vendredis"
+    ],
+    "emoji": "\ud83d\udcc5\u2728"
+  },
+  "\u00e0 c\u00f4t\u00e9": {
+    "word": "\u00e0 c\u00f4t\u00e9",
+    "definition": "Dans la maison ou l\u2019endroit juste \u00e0 c\u00f4t\u00e9 de chez vous.",
+    "variations": [
+      "\u00e0 c\u00f4t\u00e9",
+      "d\u2019\u00e0 c\u00f4t\u00e9"
+    ],
+    "emoji": "\ud83d\udeaa\u27a1\ufe0f"
+  },
+  "\u00e0 travers": {
+    "word": "\u00e0 travers",
+    "definition": "D\u2019un c\u00f4t\u00e9 \u00e0 l\u2019autre de quelque chose.",
+    "variations": [
+      "\u00e0 travers",
+      "au travers"
+    ],
+    "emoji": "\u27a1\ufe0f\ud83e\ude9f\ud83d\udd0d"
+  }
+}

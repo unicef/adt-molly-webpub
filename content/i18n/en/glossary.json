@@ -1,0 +1,367 @@
+{
+  "Friday": {
+    "word": "Friday",
+    "definition": "the fifth day of the week, after Thursday.",
+    "variations": [
+      "Friday",
+      "Fridays"
+    ],
+    "emoji": "\ud83d\udcc5\u2728"
+  },
+  "afraid": {
+    "word": "afraid",
+    "definition": "feeling fear; scared",
+    "variations": [
+      "more afraid",
+      "most afraid"
+    ],
+    "emoji": "\ud83d\ude28\ud83d\ude1f"
+  },
+  "all the time": {
+    "word": "all the time",
+    "definition": "always; happening very often or without stopping",
+    "variations": [
+      "all of the time"
+    ],
+    "emoji": "\ud83d\udd52\u267e\ufe0f"
+  },
+  "best": {
+    "word": "best",
+    "definition": "the highest level of quality or skill; better than all others.",
+    "variations": [
+      "good",
+      "better",
+      "best"
+    ],
+    "emoji": "\ud83e\udd47\u2b50"
+  },
+  "but": {
+    "word": "but",
+    "definition": "a word used to show contrast between two ideas.",
+    "variations": [
+      "but"
+    ],
+    "emoji": "\ud83d\udd00\u2696\ufe0f"
+  },
+  "can\u2019t": {
+    "word": "can\u2019t",
+    "definition": "Not able to do something.",
+    "variations": [
+      "can\u2019t",
+      "cannot",
+      "can not"
+    ],
+    "emoji": "\ud83d\udeab\ud83d\ude45\u200d\u2642\ufe0f"
+  },
+  "child": {
+    "word": "child",
+    "definition": "A young person who is not yet an adult.",
+    "variations": [
+      "child",
+      "children"
+    ],
+    "emoji": "\ud83e\uddd2\ud83d\udc67"
+  },
+  "club": {
+    "word": "club",
+    "definition": "a group of people who meet or play together for a shared activity.",
+    "variations": [
+      "club",
+      "clubs"
+    ],
+    "emoji": "\ud83d\udc65\ud83e\udd1d"
+  },
+  "cricket": {
+    "word": "cricket",
+    "definition": "a bat-and-ball sport played by two teams; players try to score runs.",
+    "variations": [
+      "cricket"
+    ],
+    "emoji": "\ud83c\udfcf\ud83c\udf0d"
+  },
+  "finish": {
+    "word": "finish",
+    "definition": "To complete something; to be done with it.",
+    "variations": [
+      "finish",
+      "finishes",
+      "finished",
+      "finishing"
+    ],
+    "emoji": "\u2705\ud83c\udfc1"
+  },
+  "frog": {
+    "word": "frog",
+    "definition": "A small animal that can live in water and on land. It jumps and makes a croaking sound.",
+    "variations": [
+      "frogs"
+    ],
+    "emoji": "\ud83d\udc38\ud83c\udf3f"
+  },
+  "happy": {
+    "word": "happy",
+    "definition": "Feeling good or pleased.",
+    "variations": [
+      "happy",
+      "happier",
+      "happiest",
+      "happily"
+    ],
+    "emoji": "\ud83d\ude0a\ud83c\udf89\ud83d\udc9b"
+  },
+  "have to": {
+    "word": "have to",
+    "definition": "shows that something is necessary or required.",
+    "variations": [
+      "have to",
+      "has to",
+      "had to"
+    ],
+    "emoji": "\u2705\u23f0"
+  },
+  "high": {
+    "word": "high",
+    "definition": "Up a long way from the ground; far upward.",
+    "variations": [
+      "high",
+      "higher",
+      "highest"
+    ],
+    "emoji": "\ud83d\udd3c\u26f0\ufe0f"
+  },
+  "house": {
+    "word": "house",
+    "definition": "A building where people live.",
+    "variations": [
+      "house",
+      "houses"
+    ],
+    "emoji": "\ud83c\udfe0"
+  },
+  "jump": {
+    "word": "jump",
+    "definition": "To push your body up from the ground and go into the air.",
+    "variations": [
+      "jump",
+      "jumps",
+      "jumped",
+      "jumping"
+    ],
+    "emoji": "\ud83e\udd98\u2b06\ufe0f"
+  },
+  "jumper": {
+    "word": "jumper",
+    "definition": "a person who jumps, especially in sports competitions.",
+    "variations": [
+      "jumper",
+      "jumpers"
+    ],
+    "emoji": "\ud83e\udd98\ud83c\udfc5"
+  },
+  "living room": {
+    "word": "living room",
+    "definition": "The main room in a home where people sit, talk, and relax.",
+    "variations": [
+      "living room",
+      "living rooms",
+      "living-room"
+    ],
+    "emoji": "\ud83d\udecb\ufe0f\ud83c\udfe0"
+  },
+  "long": {
+    "word": "long",
+    "definition": "Far in distance from one end to the other.",
+    "variations": [
+      "long",
+      "longer",
+      "longest"
+    ],
+    "emoji": "\ud83d\udccf\u2194\ufe0f"
+  },
+  "may": {
+    "word": "may",
+    "definition": "Shows that something might happen.",
+    "variations": [
+      "may"
+    ],
+    "emoji": "\u2753\ud83c\udfb2"
+  },
+  "meeting": {
+    "word": "meeting",
+    "definition": "A time when people come together to talk, plan, or decide things.",
+    "variations": [
+      "meeting",
+      "meetings"
+    ],
+    "emoji": "\ud83d\uddd3\ufe0f\ud83d\udde3\ufe0f"
+  },
+  "mother": {
+    "word": "mother",
+    "definition": "A woman who is a parent.",
+    "variations": [
+      "mother",
+      "mothers"
+    ],
+    "emoji": "\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66"
+  },
+  "next door": {
+    "word": "next door",
+    "definition": "In the home or place right beside yours.",
+    "variations": [
+      "next door",
+      "next-door"
+    ],
+    "emoji": "\ud83d\udeaa\u27a1\ufe0f"
+  },
+  "outside": {
+    "word": "outside",
+    "definition": "Not inside a building; in the open air.",
+    "variations": [
+      "outside",
+      "outdoors"
+    ],
+    "emoji": "\ud83c\udf24\ufe0f\ud83c\udf33"
+  },
+  "over": {
+    "word": "over",
+    "definition": "Finished; ended. \u201cThe meeting is over\u201d means it has finished.",
+    "variations": [
+      "over"
+    ],
+    "emoji": "\u2705\ud83d\udd1a"
+  },
+  "play": {
+    "word": "play",
+    "definition": "to take part in a game or sport.",
+    "variations": [
+      "play",
+      "plays",
+      "played",
+      "playing"
+    ],
+    "emoji": "\ud83c\udfaf\u26bd"
+  },
+  "potato sack race": {
+    "word": "potato sack race",
+    "definition": "A race where people stand in big sacks and hop to the finish line.",
+    "variations": [
+      "potato sack race",
+      "potato-sack race",
+      "potato sack races"
+    ],
+    "emoji": "\ud83e\udd54\ud83c\udfc1"
+  },
+  "practise": {
+    "word": "practise",
+    "definition": "To do something again and again so you get better at it.",
+    "variations": [
+      "practise",
+      "practises",
+      "practised",
+      "practising",
+      "practice",
+      "practices",
+      "practiced",
+      "practicing"
+    ],
+    "emoji": "\ud83d\udd01\ud83c\udfaf"
+  },
+  "prize": {
+    "word": "prize",
+    "definition": "Something you get for winning.",
+    "variations": [
+      "prize",
+      "prizes"
+    ],
+    "emoji": "\ud83c\udf96\ufe0f\ud83c\udf81"
+  },
+  "race": {
+    "word": "race",
+    "definition": "A contest to see who is fastest or who can go the farthest.",
+    "variations": [
+      "race",
+      "races",
+      "raced",
+      "racing"
+    ],
+    "emoji": "\ud83c\udfc1\ud83c\udfc3\u200d\u2640\ufe0f"
+  },
+  "rain": {
+    "word": "rain",
+    "definition": "Water that falls from clouds. \u201cIt\u2019s raining\u201d means the rain is falling now.",
+    "variations": [
+      "rain",
+      "rains",
+      "rained",
+      "raining",
+      "rainy"
+    ],
+    "emoji": "\ud83c\udf27\ufe0f\u2614\ufe0f\ud83d\udca7"
+  },
+  "seed": {
+    "word": "seed",
+    "definition": "A small part of a plant that can grow into a new plant.",
+    "variations": [
+      "seed",
+      "seeds"
+    ],
+    "emoji": "\ud83c\udf31\ud83c\udf3e"
+  },
+  "stop": {
+    "word": "stop",
+    "definition": "To not do something anymore; to bring an action to an end.",
+    "variations": [
+      "stops",
+      "stopped",
+      "stopping"
+    ],
+    "emoji": "\u270b\u26d4\ufe0f"
+  },
+  "take someone\u2019s place": {
+    "word": "take someone\u2019s place",
+    "definition": "to do another person\u2019s job or role instead of them",
+    "variations": [
+      "takes someone\u2019s place",
+      "took someone\u2019s place",
+      "taking someone\u2019s place"
+    ],
+    "emoji": "\ud83d\udd01\ud83d\udc65"
+  },
+  "through": {
+    "word": "through",
+    "definition": "From one side to the other side of something.",
+    "variations": [
+      "through",
+      "thru"
+    ],
+    "emoji": "\u27a1\ufe0f\ud83e\ude9f\ud83d\udd0d"
+  },
+  "win": {
+    "word": "win",
+    "definition": "To come first in a game or contest.",
+    "variations": [
+      "win",
+      "wins",
+      "won",
+      "winning"
+    ],
+    "emoji": "\ud83c\udfc6\ud83c\udf89"
+  },
+  "window": {
+    "word": "window",
+    "definition": "An opening in a wall with glass that you can see through.",
+    "variations": [
+      "window",
+      "windows"
+    ],
+    "emoji": "\ud83e\ude9f\ud83d\udc40\ud83c\udfe0"
+  },
+  "year": {
+    "word": "year",
+    "definition": "A period of 12 months. \"Last year\" means the year before this one.",
+    "variations": [
+      "years"
+    ],
+    "emoji": "\ud83d\udcc5\ud83d\uddd3\ufe0f"
+  }
+}

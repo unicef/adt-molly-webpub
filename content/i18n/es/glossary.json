@@ -1,0 +1,367 @@
+{
+  "a trav\u00e9s de": {
+    "word": "a trav\u00e9s de",
+    "definition": "De un lado al otro de algo.",
+    "variations": [
+      "a trav\u00e9s de",
+      "por"
+    ],
+    "emoji": "\u27a1\ufe0f\ud83e\ude9f\ud83d\udd0d"
+  },
+  "afuera": {
+    "word": "afuera",
+    "definition": "No dentro de un edificio; al aire libre.",
+    "variations": [
+      "afuera",
+      "al aire libre"
+    ],
+    "emoji": "\ud83c\udf24\ufe0f\ud83c\udf33"
+  },
+  "al lado": {
+    "word": "al lado",
+    "definition": "En la casa o el lugar justo al lado del tuyo.",
+    "variations": [
+      "al lado",
+      "de al lado"
+    ],
+    "emoji": "\ud83d\udeaa\u27a1\ufe0f"
+  },
+  "alto": {
+    "word": "alto",
+    "definition": "A gran distancia del suelo; muy arriba.",
+    "variations": [
+      "alto",
+      "m\u00e1s alto",
+      "el m\u00e1s alto"
+    ],
+    "emoji": "\ud83d\udd3c\u26f0\ufe0f"
+  },
+  "asustado": {
+    "word": "asustado",
+    "definition": "que siente miedo; asustado",
+    "variations": [
+      "m\u00e1s asustado",
+      "el m\u00e1s asustado"
+    ],
+    "emoji": "\ud83d\ude28\ud83d\ude1f"
+  },
+  "a\u00f1o": {
+    "word": "a\u00f1o",
+    "definition": "Un per\u00edodo de 12 meses. \"El a\u00f1o pasado\" significa el a\u00f1o anterior a este.",
+    "variations": [
+      "a\u00f1os"
+    ],
+    "emoji": "\ud83d\udcc5\ud83d\uddd3\ufe0f"
+  },
+  "carrera": {
+    "word": "carrera",
+    "definition": "Una competencia para ver qui\u00e9n es m\u00e1s r\u00e1pido o qui\u00e9n puede llegar m\u00e1s lejos.",
+    "variations": [
+      "carrera",
+      "carreras",
+      "compiti\u00f3",
+      "compitiendo"
+    ],
+    "emoji": "\ud83c\udfc1\ud83c\udfc3\u200d\u2640\ufe0f"
+  },
+  "carrera de sacos": {
+    "word": "carrera de sacos",
+    "definition": "Una carrera en la que las personas est\u00e1n de pie dentro de sacos grandes y saltan hasta la l\u00ednea de meta.",
+    "variations": [
+      "carrera de sacos",
+      "carrera-de-sacos",
+      "carreras de sacos"
+    ],
+    "emoji": "\ud83e\udd54\ud83c\udfc1"
+  },
+  "casa": {
+    "word": "casa",
+    "definition": "Un edificio donde vive la gente.",
+    "variations": [
+      "casa",
+      "casas"
+    ],
+    "emoji": "\ud83c\udfe0"
+  },
+  "club": {
+    "word": "club",
+    "definition": "un grupo de personas que se re\u00fanen o juegan juntas para una actividad compartida.",
+    "variations": [
+      "club",
+      "clubes"
+    ],
+    "emoji": "\ud83d\udc65\ud83e\udd1d"
+  },
+  "cr\u00edquet": {
+    "word": "cr\u00edquet",
+    "definition": "deporte de bate y pelota que se juega entre dos equipos; los jugadores intentan anotar carreras.",
+    "variations": [
+      "cr\u00edquet"
+    ],
+    "emoji": "\ud83c\udfcf\ud83c\udf0d"
+  },
+  "el mejor": {
+    "word": "el mejor",
+    "definition": "el nivel m\u00e1s alto de calidad o habilidad; mejor que todos los dem\u00e1s.",
+    "variations": [
+      "bueno",
+      "mejor",
+      "el mejor"
+    ],
+    "emoji": "\ud83e\udd47\u2b50"
+  },
+  "feliz": {
+    "word": "feliz",
+    "definition": "Que se siente bien o complacido.",
+    "variations": [
+      "feliz",
+      "m\u00e1s feliz",
+      "el m\u00e1s feliz",
+      "felizmente"
+    ],
+    "emoji": "\ud83d\ude0a\ud83c\udf89\ud83d\udc9b"
+  },
+  "ganar": {
+    "word": "ganar",
+    "definition": "Quedar en primer lugar en un juego o competencia.",
+    "variations": [
+      "ganar",
+      "gana",
+      "gan\u00f3",
+      "ganando"
+    ],
+    "emoji": "\ud83c\udfc6\ud83c\udf89"
+  },
+  "jugar": {
+    "word": "jugar",
+    "definition": "participar en un juego o deporte.",
+    "variations": [
+      "jugar",
+      "juega",
+      "jug\u00f3",
+      "jugando"
+    ],
+    "emoji": "\ud83c\udfaf\u26bd"
+  },
+  "largo": {
+    "word": "largo",
+    "definition": "Que tiene gran distancia de un extremo a otro.",
+    "variations": [
+      "largo",
+      "m\u00e1s largo",
+      "el m\u00e1s largo"
+    ],
+    "emoji": "\ud83d\udccf\u2194\ufe0f"
+  },
+  "lluvia": {
+    "word": "lluvia",
+    "definition": "Agua que cae de las nubes. \"Est\u00e1 lloviendo\" significa que la lluvia est\u00e1 cayendo ahora.",
+    "variations": [
+      "lluvia",
+      "llueve",
+      "llovi\u00f3",
+      "lloviendo",
+      "lluvioso"
+    ],
+    "emoji": "\ud83c\udf27\ufe0f\u2614\ufe0f\ud83d\udca7"
+  },
+  "madre": {
+    "word": "madre",
+    "definition": "Una mujer que es progenitora.",
+    "variations": [
+      "madre",
+      "madres"
+    ],
+    "emoji": "\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66"
+  },
+  "ni\u00f1o": {
+    "word": "ni\u00f1o",
+    "definition": "Una persona joven que a\u00fan no es adulta.",
+    "variations": [
+      "ni\u00f1o",
+      "ni\u00f1os"
+    ],
+    "emoji": "\ud83e\uddd2\ud83d\udc67"
+  },
+  "no poder": {
+    "word": "no poder",
+    "definition": "No ser capaz de hacer algo.",
+    "variations": [
+      "no poder",
+      "no poder",
+      "no poder"
+    ],
+    "emoji": "\ud83d\udeab\ud83d\ude45\u200d\u2642\ufe0f"
+  },
+  "ocupar el lugar de alguien": {
+    "word": "ocupar el lugar de alguien",
+    "definition": "hacer el trabajo o el papel de otra persona en su lugar",
+    "variations": [
+      "ocupa el lugar de alguien",
+      "ocup\u00f3 el lugar de alguien",
+      "ocupando el lugar de alguien"
+    ],
+    "emoji": "\ud83d\udd01\ud83d\udc65"
+  },
+  "parar": {
+    "word": "parar",
+    "definition": "Dejar de hacer algo; poner fin a una acci\u00f3n.",
+    "variations": [
+      "para",
+      "par\u00f3",
+      "parando"
+    ],
+    "emoji": "\u270b\u26d4\ufe0f"
+  },
+  "pero": {
+    "word": "pero",
+    "definition": "una palabra que se usa para mostrar contraste entre dos ideas.",
+    "variations": [
+      "pero"
+    ],
+    "emoji": "\ud83d\udd00\u2696\ufe0f"
+  },
+  "practicar": {
+    "word": "practicar",
+    "definition": "Hacer algo una y otra vez para mejorar en ello.",
+    "variations": [
+      "practicar",
+      "practica",
+      "practic\u00f3",
+      "practicando",
+      "practicar",
+      "practica",
+      "practic\u00f3",
+      "practicando"
+    ],
+    "emoji": "\ud83d\udd01\ud83c\udfaf"
+  },
+  "premio": {
+    "word": "premio",
+    "definition": "Algo que recibes por ganar.",
+    "variations": [
+      "premio",
+      "premios"
+    ],
+    "emoji": "\ud83c\udf96\ufe0f\ud83c\udf81"
+  },
+  "puede que": {
+    "word": "puede que",
+    "definition": "Indica que algo podr\u00eda suceder.",
+    "variations": [
+      "puede que"
+    ],
+    "emoji": "\u2753\ud83c\udfb2"
+  },
+  "rana": {
+    "word": "rana",
+    "definition": "Un animal peque\u00f1o que puede vivir tanto en el agua como en la tierra. Salta y croa.",
+    "variations": [
+      "ranas"
+    ],
+    "emoji": "\ud83d\udc38\ud83c\udf3f"
+  },
+  "reuni\u00f3n": {
+    "word": "reuni\u00f3n",
+    "definition": "Un momento en el que las personas se re\u00fanen para hablar, planificar o tomar decisiones.",
+    "variations": [
+      "reuni\u00f3n",
+      "reuniones"
+    ],
+    "emoji": "\ud83d\uddd3\ufe0f\ud83d\udde3\ufe0f"
+  },
+  "sala de estar": {
+    "word": "sala de estar",
+    "definition": "La sala principal de una casa donde la gente se sienta, conversa y se relaja.",
+    "variations": [
+      "sala de estar",
+      "salas de estar",
+      "sala-de-estar"
+    ],
+    "emoji": "\ud83d\udecb\ufe0f\ud83c\udfe0"
+  },
+  "saltador": {
+    "word": "saltador",
+    "definition": "una persona que salta, especialmente en competiciones deportivas.",
+    "variations": [
+      "saltador",
+      "saltadores"
+    ],
+    "emoji": "\ud83e\udd98\ud83c\udfc5"
+  },
+  "saltar": {
+    "word": "saltar",
+    "definition": "Impulsar el cuerpo hacia arriba desde el suelo y elevarse en el aire.",
+    "variations": [
+      "saltar",
+      "salta",
+      "salt\u00f3",
+      "saltando"
+    ],
+    "emoji": "\ud83e\udd98\u2b06\ufe0f"
+  },
+  "semilla": {
+    "word": "semilla",
+    "definition": "Una parte peque\u00f1a de una planta que puede crecer y convertirse en una nueva planta.",
+    "variations": [
+      "semilla",
+      "semillas"
+    ],
+    "emoji": "\ud83c\udf31\ud83c\udf3e"
+  },
+  "tener que": {
+    "word": "tener que",
+    "definition": "indica que algo es necesario o requerido.",
+    "variations": [
+      "tener que",
+      "tiene que",
+      "tuvo que"
+    ],
+    "emoji": "\u2705\u23f0"
+  },
+  "terminado": {
+    "word": "terminado",
+    "definition": "Terminado; concluido. \"La reuni\u00f3n ha terminado\" significa que ha finalizado.",
+    "variations": [
+      "terminado"
+    ],
+    "emoji": "\u2705\ud83d\udd1a"
+  },
+  "terminar": {
+    "word": "terminar",
+    "definition": "Completar algo; darlo por terminado.",
+    "variations": [
+      "terminar",
+      "termina",
+      "terminado",
+      "terminando"
+    ],
+    "emoji": "\u2705\ud83c\udfc1"
+  },
+  "todo el tiempo": {
+    "word": "todo el tiempo",
+    "definition": "siempre; que ocurre muy a menudo o sin parar",
+    "variations": [
+      "todo el tiempo"
+    ],
+    "emoji": "\ud83d\udd52\u267e\ufe0f"
+  },
+  "ventana": {
+    "word": "ventana",
+    "definition": "Una abertura en una pared con vidrio por la que se puede ver.",
+    "variations": [
+      "ventana",
+      "ventanas"
+    ],
+    "emoji": "\ud83e\ude9f\ud83d\udc40\ud83c\udfe0"
+  },
+  "viernes": {
+    "word": "viernes",
+    "definition": "el quinto d\u00eda de la semana, despu\u00e9s del jueves.",
+    "variations": [
+      "viernes",
+      "viernes"
+    ],
+    "emoji": "\ud83d\udcc5\u2728"
+  }
+}
