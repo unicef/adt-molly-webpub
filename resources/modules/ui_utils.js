@@ -627,7 +627,11 @@ const handleEli5Audio = (eli5Id) => {
         highlightElement(eli5Container);
         // Get the current language from state or a global config
         const currentLanguage = state.currentLanguage || (window.appConfig && window.appConfig.languages && window.appConfig.languages.default) || 'es';
-        const audioBasePath = `content/i18n/${currentLanguage}/audio/`;
+        
+        // Determine the correct content path based on current location
+        const currentPath = window.location.pathname;
+        const contentPath = currentPath.includes('/content/') ? '../content/' : './content/';
+        const audioBasePath = `${contentPath}i18n/${currentLanguage}/audio/`;
         const eli5AudioSrc = audioBasePath + state.audioFiles[eli5Id];
 
         if (eli5AudioSrc) {

@@ -101,7 +101,10 @@ export const gatherAudioElements = () => {
     // Get the current language from state or a global config
     const currentLanguage = state.currentLanguage || (window.appConfig && window.appConfig.languages && window.appConfig.languages.default) || 'es';
 
-    const audioBasePath = `content/i18n/${currentLanguage}/audio/`;
+    // Determine the correct content path based on current location
+    const currentPath = window.location.pathname;
+    const contentPath = currentPath.includes('/content/') ? '../content/' : './content/';
+    const audioBasePath = `${contentPath}i18n/${currentLanguage}/audio/`;
 
     const elements = Array.from(
         document.querySelectorAll('.container [data-id], .container textarea[data-placeholder-id], .container input[data-placeholder-id]')
