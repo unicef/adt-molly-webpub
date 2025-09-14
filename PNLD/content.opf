@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="bookid" xml:lang="en" xmlns="http://www.idpf.org/2007/opf">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>Molly Hopper Learns to Jump - Windows to Literacy</dc:title>
+<dc:creator>Donna Hemans</dc:creator>
+<dc:contributor opf:role="ill">Rachel Wade</dc:contributor>
+<dc:publisher>Ministry of Education, Jamaica</dc:publisher>
+<dc:language>en</dc:language>
+<dc:identifier id="bookid">urn:uuid:978-976-639-070-9</dc:identifier>
+<dc:identifier opf:scheme="ISBN">978-976-639-070-9</dc:identifier>
+<dc:date>2007-01-01</dc:date>
+<dc:date opf:event="modification">2025-09-14</dc:date>
+<dc:description>Grade 1 literacy book from the Windows to Literacy series, part of Jamaica's Literacy 1-2-3 national strategy</dc:description>
+<dc:subject>Early literacy</dc:subject>
+<dc:subject>Primary education</dc:subject>
+<dc:subject>Reading development</dc:subject>
+<dc:subject>Jamaica literacy strategy</dc:subject>
+<dc:subject>Grade 1</dc:subject>
+<dc:rights>© Ministry of Education, Jamaica, 2007</dc:rights>
+
+<!-- Accessibility Metadata -->
+<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 AA.</meta>
+<meta property="schema:accessMode">textual</meta>
+<meta property="schema:accessMode">visual</meta>
+<meta property="schema:accessModeSufficient">textual</meta>
+<meta property="schema:accessModeSufficient">textual,visual</meta>
+<meta property="schema:accessibilityFeature">structuralNavigation</meta>
+<meta property="schema:accessibilityFeature">alternativeText</meta>
+<meta property="schema:accessibilityFeature">longDescription</meta>
+<meta property="schema:accessibilityFeature">largePrint</meta>
+<meta property="schema:accessibilityFeature">highContrast</meta>
+<meta property="schema:accessibilityFeature">resizeText</meta>
+<meta property="schema:accessibilityFeature">displayTransformability</meta>
+<meta property="schema:accessibilityControl">fullKeyboardControl</meta>
+<meta property="schema:accessibilityHazard">none</meta>
+
+<meta name="cover" content="cover_jpg"/>
+<meta property="dcterms:created">2007</meta>
+<meta property="dcterms:source">Digital</meta>
+</metadata>
+<manifest>
+<!-- Cover -->
+<item id="cover_jpg" href="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+
+<!-- HTML Content -->
+<item id="index_html" href="index.html" media-type="application/xhtml+xml"/>
+<item id="sec_p5_s0_html" href="content/sec_p5_s0.html" media-type="application/xhtml+xml"/>
+<item id="sec_p6_s0_html" href="content/sec_p6_s0.html" media-type="application/xhtml+xml"/>
+<item id="sec_p7_s0_html" href="content/sec_p7_s0.html" media-type="application/xhtml+xml"/>
+<item id="sec_p8_s0_html" href="content/sec_p8_s0.html" media-type="application/xhtml+xml"/>
+<item id="sec_p9_s0_html" href="content/sec_p9_s0.html" media-type="application/xhtml+xml"/>
+<item id="sec_p10_s0_html" href="content/sec_p10_s0.html" media-type="application/xhtml+xml"/>
+<item id="nav_html" href="content/navigation/nav.html" media-type="application/xhtml+xml" properties="nav"/>
+
+<!-- CSS Stylesheets -->
+<item id="tailwind_output_css" href="content/tailwind_output.css" media-type="text/css"/>
+<item id="tailwind_css" href="resources/tailwind_css.css" media-type="text/css"/>
+<item id="fontawesome_minimal_css" href="resources/libs/fontawesome/css/minimal.css" media-type="text/css"/>
+
+<!-- Images -->
+<item id="img_p5_r0_png" href="content/images/img_p5_r0.png" media-type="image/png"/>
+<item id="img_p6_r0_png" href="content/images/img_p6_r0.png" media-type="image/png"/>
+<item id="img_p7_r0_png" href="content/images/img_p7_r0.png" media-type="image/png"/>
+<item id="img_p8_r0_png" href="content/images/img_p8_r0.png" media-type="image/png"/>
+<item id="img_p9_r0_png" href="content/images/img_p9_r0.png" media-type="image/png"/>
+<item id="img_p10_r0_png" href="content/images/img_p10_r0.png" media-type="image/png"/>
+
+<!-- JavaScript -->
+<item id="base_js" href="resources/base.js" media-type="text/javascript"/>
+<item id="activity_js" href="resources/activity.js" media-type="text/javascript"/>
+<item id="conditional_mathjax_js" href="resources/conditional-mathjax.js" media-type="text/javascript"/>
+<item id="mathjax_js" href="resources/libs/mathjax/tex-mml-chtml.js" media-type="text/javascript"/>
+<item id="state_js" href="resources/modules/state.js" media-type="text/javascript"/>
+
+<!-- Configuration and Data -->
+<item id="config_json" href="resources/config.json" media-type="application/json"/>
+
+<!-- Sound Effects -->
+<item id="drop_mp3" href="resources/sounds/drop.mp3" media-type="audio/mpeg"/>
+<item id="error_mp3" href="resources/sounds/error.mp3" media-type="audio/mpeg"/>
+<item id="reset_mp3" href="resources/sounds/reset.mp3" media-type="audio/mpeg"/>
+<item id="success_mp3" href="resources/sounds/success.mp3" media-type="audio/mpeg"/>
+<item id="validate_error_mp3" href="resources/sounds/validate_error.mp3" media-type="audio/mpeg"/>
+<item id="validate_success_mp3" href="resources/sounds/validate_success.mp3" media-type="audio/mpeg"/>
+</manifest>
+<spine>
+<itemref idref="index_html"/>
+<itemref idref="sec_p5_s0_html"/>
+<itemref idref="sec_p6_s0_html"/>
+<itemref idref="sec_p7_s0_html"/>
+<itemref idref="sec_p8_s0_html"/>
+<itemref idref="sec_p9_s0_html"/>
+<itemref idref="sec_p10_s0_html"/>
+</spine>
+<guide>
+<reference type="cover" title="Cover" href="index.html"/>
+<reference type="toc" title="Table of Contents" href="index.html#toc"/>
+<reference type="text" title="Story Start" href="content/sec_p5_s0.html"/>
+</guide>
+</package>
+<item id="imagem15_jpg" href="resources/images/imagem15.jpg" media-type="image/jpeg"/>
+<item id="imagem16_jpg" href="resources/images/imagem16.jpg" media-type="image/jpeg"/>
+<item id="imagem17_jpg" href="resources/images/imagem17.jpg" media-type="image/jpeg"/>
+<item id="imagem18_jpg" href="resources/images/imagem18.jpg" media-type="image/jpeg"/>
+<item id="imagem19_jpg" href="resources/images/imagem19.jpg" media-type="image/jpeg"/>
+<item id="imagem20_jpg" href="resources/images/imagem20.jpg" media-type="image/jpeg"/>
+<item id="imagem21_jpg" href="resources/images/imagem21.jpg" media-type="image/jpeg"/>
+<item id="imagem22_jpg" href="resources/images/imagem22.jpg" media-type="image/jpeg"/>
+<item id="imagem23_jpg" href="resources/images/imagem23.jpg" media-type="image/jpeg"/>
+<item id="imagem24_jpg" href="resources/images/imagem24.jpg" media-type="image/jpeg"/>
+<item id="imagem25_jpg" href="resources/images/imagem25.jpg" media-type="image/jpeg"/>
+<item id="imagem26_jpg" href="resources/images/imagem26.jpg" media-type="image/jpeg"/>
+<item id="imagem27_jpg" href="resources/images/imagem27.jpg" media-type="image/jpeg"/>
+<item id="imagem30_jpg" href="resources/images/imagem30.jpg" media-type="image/jpeg"/>
+<item id="imagem31_jpg" href="resources/images/imagem31.jpg" media-type="image/jpeg"/>
+<item id="imagem32_jpg" href="resources/images/imagem32.jpg" media-type="image/jpeg"/>
+<item id="imagem33_jpg" href="resources/images/imagem33.jpg" media-type="image/jpeg"/>
+<item id="imagem34_jpg" href="resources/images/imagem34.jpg" media-type="image/jpeg"/>
+<item id="imagem35a_jpg" href="resources/images/imagem35a.jpg" media-type="image/jpeg"/>
+<item id="imagem36_jpg" href="resources/images/imagem36.jpg" media-type="image/jpeg"/>
+<item id="imagem37_jpg" href="resources/images/imagem37.jpg" media-type="image/jpeg"/>
+<item id="imagem38_jpg" href="resources/images/imagem38.jpg" media-type="image/jpeg"/>
+<item id="imagem4_jpg" href="resources/images/imagem4.jpg" media-type="image/jpeg"/>
+<item id="imagem40_jpg" href="resources/images/imagem40.jpg" media-type="image/jpeg"/>
+<item id="imagem41_jpg" href="resources/images/imagem41.jpg" media-type="image/jpeg"/>
+<item id="imagem42_jpg" href="resources/images/imagem42.jpg" media-type="image/jpeg"/>
+<item id="imagem43_jpg" href="resources/images/imagem43.jpg" media-type="image/jpeg"/>
+<item id="imagem44_jpg" href="resources/images/imagem44.jpg" media-type="image/jpeg"/>
+<item id="imagem44a_jpg" href="resources/images/imagem44a.jpg" media-type="image/jpeg"/>
+<item id="imagem46_jpg" href="resources/images/imagem46.jpg" media-type="image/jpeg"/>
+<item id="imagem47_jpg" href="resources/images/imagem47.jpg" media-type="image/jpeg"/>
+<item id="imagem47a_jpg" href="resources/images/imagem47a.jpg" media-type="image/jpeg"/>
+<item id="imagem48_jpg" href="resources/images/imagem48.jpg" media-type="image/jpeg"/>
+<item id="imagem49_jpg" href="resources/images/imagem49.jpg" media-type="image/jpeg"/>
+<item id="imagem5_jpg" href="resources/images/imagem5.jpg" media-type="image/jpeg"/>
+<item id="imagem55_jpg" href="resources/images/imagem55.jpg" media-type="image/jpeg"/>
+<item id="imagem56_jpg" href="resources/images/imagem56.jpg" media-type="image/jpeg"/>
+<item id="imagem58_jpg" href="resources/images/imagem58.jpg" media-type="image/jpeg"/>
+<item id="imagem6_jpg" href="resources/images/imagem6.jpg" media-type="image/jpeg"/>
+<item id="imagem6a_jpg" href="resources/images/imagem6a.jpg" media-type="image/jpeg"/>
+<item id="imagem7_jpg" href="resources/images/imagem7.jpg" media-type="image/jpeg"/>
+<item id="imagem8_jpg" href="resources/images/imagem8.jpg" media-type="image/jpeg"/>
+<item id="imagem9_jpg" href="resources/images/imagem9.jpg" media-type="image/jpeg"/>
+<item id="toc_ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="contracapa_xhtml" href="content/contracapa.html" media-type="text/html"/>
+<item id="miolo-obra_xhtml" href="content/miolo-obra.html" media-type="text/html"/>
+<item id="capa_jpg" href="resources/images/capa.jpg" media-type="image/jpeg" properties="cover-image"/>
+<item id="contracapa_jpg" href="resources/images/contracapa.jpg" media-type="image/jpeg"/>
+<item id="cover_jpeg" href="cover.jpeg" media-type="image/jpeg"/>
+<item id="rosto_jpg" href="resources/images/rosto.jpg" media-type="image/jpeg"/>
+</manifest>
+<spine toc="toc_ncx">
+<itemref idref="index_xhtml"/>
+<itemref idref="dedica_xhtml"/>
+<itemref idref="miolo-obra_xhtml"/>
+<itemref idref="contracapa_xhtml"/>
+</spine>
+<guide><reference title="Sumário" href="index.html#toc" type="toc"/></guide></package>
