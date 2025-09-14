@@ -21,335 +21,177 @@
       ]
     },
     "altIdentifier": [
-      "urn:isbn:9786599391064"
+      "urn:isbn:9789766390709"
     ],
-    "author": "Luana Chnaiderman",
+    "author": "Donna Hemans",
     "conformsTo": "https://readium.org/webpub-manifest/profiles/epub",
-    "description": "O ornitorrinco [livro eletr\u00f4nico] : livro digital do professor",
-    "http://purl.org/dc/terms/created": "2021",
-    "http://purl.org/dc/terms/source": "Impresso",
+    "description": "Grade 1 literacy book from the Windows to Literacy series, part of Jamaica's Literacy 1-2-3 national strategy",
+    "http://purl.org/dc/terms/created": "2007",
+    "http://purl.org/dc/terms/source": "Digital",
     "http://purl.org/dc/terms/subject": [
-      "Conto",
-      "tempo",
-      "perda",
-      "relacionamento",
-      "inf\u00e2ncia"
+      "Early literacy",
+      "Primary education",
+      "Reading development",
+      "Jamaica literacy strategy",
+      "Grade 1"
     ],
     "http://www.idpf.org/2007/opf#version": "2.0",
     "https://github.com/readium/go-toolkit/releases": "v0.11.0",
-    "identifier": "urn:uuid:978-65-993910-6-4",
-    "language": "pt-BR",
-    "modified": "2025-08-04T00:00:00Z",
-    "published": "2021-01-01T00:00:00Z",
-    "publisher": "AF Editor",
+    "identifier": "urn:uuid:978-976-639-070-9",
+    "language": "en",
+    "modified": "2025-09-14T00:00:00Z",
+    "published": "2007-01-01T00:00:00Z",
+    "publisher": "Ministry of Education, Jamaica",
     "subject": [
-      "Conto",
-      "tempo",
-      "perda",
-      "relacionamento",
-      "inf\u00e2ncia"
+      "Early literacy",
+      "Primary education",
+      "Reading development",
+      "Jamaica literacy strategy",
+      "Grade 1"
     ],
-    "title": "O ornitorrinco - livro digital do professor"
+    "title": "Molly Hopper Learns to Jump - Windows to Literacy"
   },
   "readingOrder": [
     {
-      "href": "PNLD/index.html",
+      "href": "index.html",
       "type": "text/html"
     },
     {
-      "href": "PNLD/content/os_animais_domesticos.html",
+      "href": "PNLD/content/sec_p5_s0.html",
       "type": "text/html"
     },
     {
-      "href": "PNLD/content/ornitorrinco.html",
+      "href": "PNLD/content/sec_p6_s0.html",
       "type": "text/html"
     },
     {
-      "href": "PNLD/content/tres_riscos.html",
+      "href": "PNLD/content/sec_p7_s0.html",
       "type": "text/html"
     },
     {
-      "href": "PNLD/content/as_vezes_o_tempo.html",
+      "href": "PNLD/content/sec_p8_s0.html",
       "type": "text/html"
     },
     {
-      "href": "PNLD/content/vento.html",
+      "href": "PNLD/content/sec_p9_s0.html",
       "type": "text/html"
     },
     {
-      "href": "PNLD/content/nuvem.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/o_almoco_de_dorothea.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/textos_complementares.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/textos_complementares_0001.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/textos_complementares_0002.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/textos_complementares_0003.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/referencias.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_professor.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_sumario.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_carta.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_propostas.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_propostas_0001.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_propostas_0002.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_sugestoes.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_sugestoes_0001.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/MDP_bibliografia.html",
-      "type": "text/html"
-    },
-    {
-      "href": "PNLD/content/capa4.html",
+      "href": "PNLD/content/sec_p10_s0.html",
       "type": "text/html"
     }
   ],
   "resources": [
     {
-      "href": "PNLD/resources/fonts/PTSans-Bold.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/PTSans-BoldItalic.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/PTSans-Italic.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/PTSans-Regular.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/PTSerif-Bold.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/PTSerif-BoldItalic.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/PTSerif-Italic.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/PTSerif-Regular.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/Ubuntu-Bold.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/Ubuntu-BoldItalic.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/Ubuntu-Italic.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/fonts/Ubuntu-Regular.ttf",
-      "type": "font/ttf"
-    },
-    {
-      "href": "PNLD/resources/images/capa_PROFESSOR.jpg",
+      "href": "cover.jpg",
       "rel": "cover",
       "type": "image/jpeg"
     },
     {
-      "href": "PNLD/resources/images/capa_PROFESSOR_MDP.jpg",
-      "type": "image/jpeg"
+      "href": "PNLD/content/tailwind_output.css",
+      "type": "text/css"
     },
     {
-      "href": "PNLD/resources/images/cc.png",
+      "href": "PNLD/resources/tailwind_css.css",
+      "type": "text/css"
+    },
+    {
+      "href": "PNLD/resources/libs/fontawesome/css/all.min.css",
+      "type": "text/css"
+    },
+    {
+      "href": "PNLD/content/images/img_p5_r0.png",
       "type": "image/png"
     },
     {
-      "href": "PNLD/resources/styles/design.css",
-      "type": "text/css"
+      "href": "PNLD/content/images/img_p6_r0.png",
+      "type": "image/png"
     },
     {
-      "href": "PNLD/resources/styles/design_MDP.css",
-      "type": "text/css"
+      "href": "PNLD/content/images/img_p7_r0.png",
+      "type": "image/png"
     },
     {
-      "href": "PNLD/toc.ncx",
-      "type": "application/x-dtbncx+xml"
+      "href": "PNLD/content/images/img_p8_r0.png",
+      "type": "image/png"
     },
     {
-      "href": "PNLD/resources/images/titlepage_PROFESSOR.jpg",
-      "type": "image/jpeg"
+      "href": "PNLD/content/images/img_p9_r0.png",
+      "type": "image/png"
     },
     {
-      "href": "PNLD/resources/images/contraorn.jpg",
-      "type": "image/jpeg"
+      "href": "PNLD/content/images/img_p10_r0.png",
+      "type": "image/png"
     },
     {
-      "href": "PNLD/cover.jpeg",
-      "type": "image/jpeg"
+      "href": "PNLD/resources/base.js",
+      "type": "application/javascript"
+    },
+    {
+      "href": "PNLD/resources/activity.js",
+      "type": "application/javascript"
+    },
+    {
+      "href": "PNLD/resources/config.json",
+      "type": "application/json"
+    },
+    {
+      "href": "PNLD/resources/sounds/drop.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "PNLD/resources/sounds/error.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "PNLD/resources/sounds/reset.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "PNLD/resources/sounds/success.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "PNLD/resources/sounds/validate_error.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "PNLD/resources/sounds/validate_success.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "href": "PNLD/content/navigation/nav.html",
+      "type": "text/html"
     }
   ],
   "toc": [
     {
-      "href": "PNLD/index.html#cover",
-      "title": "Capa do livro do professor"
+      "href": "index.html",
+      "title": "Molly Hopper Learns to Jump - Cover"
     },
     {
-      "href": "PNLD/index.html#titlepage",
-      "title": "Folha de rosto"
+      "href": "PNLD/content/sec_p5_s0.html",
+      "title": "Page 1"
     },
     {
-      "href": "PNLD/index.html#creditos",
-      "title": "Cr\u00e9ditos"
+      "href": "PNLD/content/sec_p6_s0.html",
+      "title": "Page 2"
     },
     {
-      "href": "PNLD/content/os_animais_domesticos.html",
-      "title": "Os Animais dom\u00e9sticos - 11"
+      "href": "PNLD/content/sec_p7_s0.html",
+      "title": "Page 3"
     },
     {
-      "href": "PNLD/content/ornitorrinco.html",
-      "title": "Ornitorrinco - 23"
+      "href": "PNLD/content/sec_p8_s0.html",
+      "title": "Page 4"
     },
     {
-      "href": "PNLD/content/tres_riscos.html",
-      "title": "Tr\u00eas Riscos - 29"
+      "href": "PNLD/content/sec_p9_s0.html",
+      "title": "Page 5"
     },
     {
-      "href": "PNLD/content/as_vezes_o_tempo.html",
-      "title": "\u00c0s Vezes, o Tempo - 35"
-    },
-    {
-      "href": "PNLD/content/vento.html",
-      "title": "Vento - 39"
-    },
-    {
-      "href": "PNLD/content/nuvem.html",
-      "title": "Nuvem - 45"
-    },
-    {
-      "href": "PNLD/content/o_almoco_de_dorothea.html",
-      "title": "O Almo\u00e7o de Dorothea - 49"
-    },
-    {
-      "children": [
-        {
-          "href": "PNLD/content/textos_complementares_0001.html",
-          "title": "Sobre a Autora - 64"
-        },
-        {
-          "href": "PNLD/content/textos_complementares_0002.html",
-          "title": "Sobre a Obra - 68"
-        },
-        {
-          "href": "PNLD/content/textos_complementares_0003.html",
-          "title": "G\u00eanero Liter\u00e1rio: O Conto - 72"
-        },
-        {
-          "href": "PNLD/content/referencias.html",
-          "title": "Refer\u00eancias - 78"
-        }
-      ],
-      "href": "PNLD/content/textos_complementares.html",
-      "title": "Textos Complementares"
-    },
-    {
-      "href": "PNLD/content/MDP_professor.html#cover",
-      "title": "Material de apoio ao professor"
-    },
-    {
-      "href": "PNLD/content/MDP_professor.html#creditos",
-      "title": "Cr\u00e9ditos"
-    },
-    {
-      "href": "PNLD/content/MDP_sumario.html",
-      "title": "Sum\u00e1rio do material de apoio ao professor"
-    },
-    {
-      "href": "PNLD/content/MDP_carta.html",
-      "title": "Carta aos Professores - 4"
-    },
-    {
-      "children": [
-        {
-          "href": "PNLD/content/MDP_propostas.html#sigil_toc_id_1",
-          "title": "Pr\u00e9-Leitura - 6"
-        },
-        {
-          "href": "PNLD/content/MDP_propostas_0001.html",
-          "title": "Leitura - 11"
-        },
-        {
-          "href": "PNLD/content/MDP_propostas_0002.html",
-          "title": "P\u00f3s-Leitura - 14"
-        }
-      ],
-      "href": "PNLD/content/MDP_propostas.html",
-      "title": "Propostas de Atividades - 6"
-    },
-    {
-      "children": [
-        {
-          "href": "PNLD/content/MDP_sugestoes.html#sigil_toc_id_2",
-          "title": "Ci\u00eancias Naturais - 20"
-        },
-        {
-          "href": "PNLD/content/MDP_sugestoes_0001.html",
-          "title": "Ci\u00eancias Humanas: Geografia - 21"
-        }
-      ],
-      "href": "PNLD/content/MDP_sugestoes.html",
-      "title": "Sugest\u00f5es Para Professores de Outras \u00c1reas de Conhecimento - 20"
-    },
-    {
-      "href": "PNLD/content/MDP_bibliografia.html",
-      "title": "Bibliografia - 26"
-    },
-    {
-      "href": "PNLD/content/capa4.html",
-      "title": "Quarta Capa"
+      "href": "PNLD/content/sec_p10_s0.html",
+      "title": "Page 6"
     }
   ]
 }
