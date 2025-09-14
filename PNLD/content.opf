@@ -50,7 +50,7 @@
 <item id="sec_p8_s0_html" href="content/sec_p8_s0.html" media-type="application/xhtml+xml"/>
 <item id="sec_p9_s0_html" href="content/sec_p9_s0.html" media-type="application/xhtml+xml"/>
 <item id="sec_p10_s0_html" href="content/sec_p10_s0.html" media-type="application/xhtml+xml"/>
-<item id="nav_html" href="content/navigation/nav.html" media-type="application/xhtml+xml" properties="nav"/>
+<item id="nav_html" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 
 <!-- CSS Stylesheets -->
 <item id="tailwind_output_css" href="content/tailwind_output.css" media-type="text/css"/>
@@ -58,12 +58,22 @@
 <item id="fontawesome_minimal_css" href="resources/libs/fontawesome/css/minimal.css" media-type="text/css"/>
 
 <!-- Images -->
+<item id="cover_jpg" href="cover.jpg" media-type="image/jpeg"/>
 <item id="img_p5_r0_png" href="content/images/img_p5_r0.png" media-type="image/png"/>
 <item id="img_p6_r0_png" href="content/images/img_p6_r0.png" media-type="image/png"/>
 <item id="img_p7_r0_png" href="content/images/img_p7_r0.png" media-type="image/png"/>
 <item id="img_p8_r0_png" href="content/images/img_p8_r0.png" media-type="image/png"/>
 <item id="img_p9_r0_png" href="content/images/img_p9_r0.png" media-type="image/png"/>
 <item id="img_p10_r0_png" href="content/images/img_p10_r0.png" media-type="image/png"/>
+
+<!-- Favicon and Icon Resources -->
+<item id="favicon_ico" href="resources/favicon_io/favicon.ico" media-type="image/x-icon"/>
+<item id="apple_touch_icon_png" href="resources/favicon_io/apple-touch-icon.png" media-type="image/png"/>
+<item id="favicon_16x16_png" href="resources/favicon_io/favicon-16x16.png" media-type="image/png"/>
+<item id="favicon_32x32_png" href="resources/favicon_io/favicon-32x32.png" media-type="image/png"/>
+<item id="android_chrome_192x192_png" href="resources/favicon_io/android-chrome-192x192.png" media-type="image/png"/>
+<item id="android_chrome_512x512_png" href="resources/favicon_io/android-chrome-512x512.png" media-type="image/png"/>
+<item id="site_webmanifest" href="resources/favicon_io/site.webmanifest" media-type="application/manifest+json"/>
 
 <!-- JavaScript -->
 <item id="base_js" href="resources/base.js" media-type="text/javascript"/>
@@ -72,8 +82,47 @@
 <item id="mathjax_js" href="resources/libs/mathjax/tex-mml-chtml.js" media-type="text/javascript"/>
 <item id="state_js" href="resources/modules/state.js" media-type="text/javascript"/>
 
+<!-- Advanced JavaScript Modules for Interactive Features -->
+<item id="interface_js" href="resources/modules/interface.js" media-type="text/javascript"/>
+<item id="navigation_js" href="resources/modules/navigation.js" media-type="text/javascript"/>
+<item id="audio_js" href="resources/modules/audio.js" media-type="text/javascript"/>
+<item id="ui_utils_js" href="resources/modules/ui_utils.js" media-type="text/javascript"/>
+<item id="utils_js" href="resources/modules/utils.js" media-type="text/javascript"/>
+<item id="translations_js" href="resources/modules/translations.js" media-type="text/javascript"/>
+<item id="tts_highlighter_v2_js" href="resources/modules/tts_highlighter_v2.js" media-type="text/javascript"/>
+<item id="browser_zoom_controller_js" href="resources/modules/browser_zoom_controller.js" media-type="text/javascript"/>
+<item id="font_utils_js" href="resources/modules/font_utils.js" media-type="text/javascript"/>
+<item id="notepad_js" href="resources/modules/notepad.js" media-type="text/javascript"/>
+<item id="tutorial_js" href="resources/modules/tutorial.js" media-type="text/javascript"/>
+<item id="video_js" href="resources/modules/video.js" media-type="text/javascript"/>
+<item id="analytics_js" href="resources/modules/analytics.js" media-type="text/javascript"/>
+<item id="cookies_js" href="resources/modules/cookies.js" media-type="text/javascript"/>
+<item id="error_utils_js" href="resources/modules/error_utils.js" media-type="text/javascript"/>
+<item id="character_display_js" href="resources/modules/character-display.js" media-type="text/javascript"/>
+<item id="character_generator_js" href="resources/modules/character-generator.js" media-type="text/javascript"/>
+
+<!-- Activity Modules for Interactive Learning -->
+<item id="fill_in_blank_js" href="resources/modules/activities/fill_in_blank.js" media-type="text/javascript"/>
+<item id="fill_in_table_js" href="resources/modules/activities/fill_in_table.js" media-type="text/javascript"/>
+<item id="gibberish_detector_js" href="resources/modules/activities/gibberish_detector.js" media-type="text/javascript"/>
+<item id="matching_js" href="resources/modules/activities/matching.js" media-type="text/javascript"/>
+
 <!-- Configuration and Data -->
 <item id="config_json" href="resources/config.json" media-type="application/json"/>
+<item id="interface_html" href="resources/interface.html" media-type="application/xhtml+xml"/>
+
+<!-- Interface Translations -->
+<item id="interface_translations_en_json" href="resources/interface_translations/en/interface_translations.json" media-type="application/json"/>
+<item id="interface_translations_es_json" href="resources/interface_translations/es/interface_translations.json" media-type="application/json"/>
+<item id="interface_translations_es_uy_json" href="resources/interface_translations/es_uy/interface_translations.json" media-type="application/json"/>
+<item id="interface_translations_pt_json" href="resources/interface_translations/pt/interface_translations.json" media-type="application/json"/>
+<item id="interface_translations_ur_json" href="resources/interface_translations/ur/interface_translations.json" media-type="application/json"/>
+
+<!-- Language Support Libraries -->
+<item id="dictionary_en_js" href="resources/libs/dictionary-en/index.js" media-type="text/javascript"/>
+<item id="dictionary_es_js" href="resources/libs/dictionary-es/index.js" media-type="text/javascript"/>
+<item id="dictionary_es_uy_js" href="resources/libs/dictionary-es-UY/index.js" media-type="text/javascript"/>
+<item id="dictionary_pt_js" href="resources/libs/dictionary-pt/index.js" media-type="text/javascript"/>
 
 <!-- Sound Effects -->
 <item id="drop_mp3" href="resources/sounds/drop.mp3" media-type="audio/mpeg"/>

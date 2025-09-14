@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Navigation</title>
+    <link href="content/tailwind_output.css" rel="stylesheet"/>
+    <style>
+        nav[epub|type~="toc"] ol {
+            list-style: none;
+            padding-left: 0;
+        }
+        nav[epub|type~="toc"] ol ol {
+            padding-left: 1.5rem;
+        }
+        nav[epub|type~="toc"] a {
+            color: #2563eb;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem 0;
+        }
+        nav[epub|type~="toc"] a:hover {
+            text-decoration: underline;
+        }
+        .nav-section {
+            margin-bottom: 1.5rem;
+        }
+        .nav-section h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+    <nav epub:type="toc" id="toc" role="doc-toc">
+        <h1>Table of Contents</h1>
+        
+        <ol>
+            <li>
+                <a href="index.html#cover">Cover</a>
+            </li>
+            <li>
+                <a href="index.html#titlepage">Title Page</a>
+            </li>
+            <li>
+                <a href="index.html#toc">Table of Contents</a>
+            </li>
+            <li>
+                <a href="index.html#creditos">Credits</a>
+            </li>
+            <li>
+                <a href="content/sec_p5_s0.html">Story Pages</a>
+                <ol>
+                    <li><a href="content/sec_p5_s0.html">Page 1</a></li>
+                    <li><a href="content/sec_p6_s0.html">Page 2</a></li>
+                    <li><a href="content/sec_p7_s0.html">Page 3</a></li>
+                    <li><a href="content/sec_p8_s0.html">Page 4</a></li>
+                    <li><a href="content/sec_p9_s0.html">Page 5</a></li>
+                    <li><a href="content/sec_p10_s0.html">Page 6</a></li>
+                </ol>
+            </li>
+        </ol>
+    </nav>
+
+    <nav epub:type="landmarks" id="landmarks" role="doc-landmarks">
+        <h2>Landmarks</h2>
+        <ol>
+            <li><a epub:type="cover" href="index.html#cover">Cover</a></li>
+            <li><a epub:type="titlepage" href="index.html#titlepage">Title Page</a></li>
+            <li><a epub:type="toc" href="index.html#toc">Table of Contents</a></li>
+            <li><a epub:type="bodymatter" href="content/sec_p5_s0.html">Start of Content</a></li>
+        </ol>
+    </nav>
+
+    <nav epub:type="page-list" id="page-list" role="doc-pagelist">
+        <h2>Page List</h2>
+        <ol>
+            <li><a href="content/sec_p5_s0.html">1</a></li>
+            <li><a href="content/sec_p6_s0.html">2</a></li>
+            <li><a href="content/sec_p7_s0.html">3</a></li>
+            <li><a href="content/sec_p8_s0.html">4</a></li>
+            <li><a href="content/sec_p9_s0.html">5</a></li>
+            <li><a href="content/sec_p10_s0.html">6</a></li>
+        </ol>
+    </nav>
+</body>
+</html>
