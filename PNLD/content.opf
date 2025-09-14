@@ -58,7 +58,6 @@
 <item id="fontawesome_minimal_css" href="resources/libs/fontawesome/css/minimal.css" media-type="text/css"/>
 
 <!-- Images -->
-<item id="cover_jpg" href="cover.jpg" media-type="image/jpeg"/>
 <item id="img_p5_r0_png" href="content/images/img_p5_r0.png" media-type="image/png"/>
 <item id="img_p6_r0_png" href="content/images/img_p6_r0.png" media-type="image/png"/>
 <item id="img_p7_r0_png" href="content/images/img_p7_r0.png" media-type="image/png"/>
@@ -147,61 +146,3 @@
 <reference type="text" title="Story Start" href="content/sec_p5_s0.html"/>
 </guide>
 </package>
-<item id="imagem15_jpg" href="resources/images/imagem15.jpg" media-type="image/jpeg"/>
-<item id="imagem16_jpg" href="resources/images/imagem16.jpg" media-type="image/jpeg"/>
-<item id="imagem17_jpg" href="resources/images/imagem17.jpg" media-type="image/jpeg"/>
-<item id="imagem18_jpg" href="resources/images/imagem18.jpg" media-type="image/jpeg"/>
-<item id="imagem19_jpg" href="resources/images/imagem19.jpg" media-type="image/jpeg"/>
-<item id="imagem20_jpg" href="resources/images/imagem20.jpg" media-type="image/jpeg"/>
-<item id="imagem21_jpg" href="resources/images/imagem21.jpg" media-type="image/jpeg"/>
-<item id="imagem22_jpg" href="resources/images/imagem22.jpg" media-type="image/jpeg"/>
-<item id="imagem23_jpg" href="resources/images/imagem23.jpg" media-type="image/jpeg"/>
-<item id="imagem24_jpg" href="resources/images/imagem24.jpg" media-type="image/jpeg"/>
-<item id="imagem25_jpg" href="resources/images/imagem25.jpg" media-type="image/jpeg"/>
-<item id="imagem26_jpg" href="resources/images/imagem26.jpg" media-type="image/jpeg"/>
-<item id="imagem27_jpg" href="resources/images/imagem27.jpg" media-type="image/jpeg"/>
-<item id="imagem30_jpg" href="resources/images/imagem30.jpg" media-type="image/jpeg"/>
-<item id="imagem31_jpg" href="resources/images/imagem31.jpg" media-type="image/jpeg"/>
-<item id="imagem32_jpg" href="resources/images/imagem32.jpg" media-type="image/jpeg"/>
-<item id="imagem33_jpg" href="resources/images/imagem33.jpg" media-type="image/jpeg"/>
-<item id="imagem34_jpg" href="resources/images/imagem34.jpg" media-type="image/jpeg"/>
-<item id="imagem35a_jpg" href="resources/images/imagem35a.jpg" media-type="image/jpeg"/>
-<item id="imagem36_jpg" href="resources/images/imagem36.jpg" media-type="image/jpeg"/>
-<item id="imagem37_jpg" href="resources/images/imagem37.jpg" media-type="image/jpeg"/>
-<item id="imagem38_jpg" href="resources/images/imagem38.jpg" media-type="image/jpeg"/>
-<item id="imagem4_jpg" href="resources/images/imagem4.jpg" media-type="image/jpeg"/>
-<item id="imagem40_jpg" href="resources/images/imagem40.jpg" media-type="image/jpeg"/>
-<item id="imagem41_jpg" href="resources/images/imagem41.jpg" media-type="image/jpeg"/>
-<item id="imagem42_jpg" href="resources/images/imagem42.jpg" media-type="image/jpeg"/>
-<item id="imagem43_jpg" href="resources/images/imagem43.jpg" media-type="image/jpeg"/>
-<item id="imagem44_jpg" href="resources/images/imagem44.jpg" media-type="image/jpeg"/>
-<item id="imagem44a_jpg" href="resources/images/imagem44a.jpg" media-type="image/jpeg"/>
-<item id="imagem46_jpg" href="resources/images/imagem46.jpg" media-type="image/jpeg"/>
-<item id="imagem47_jpg" href="resources/images/imagem47.jpg" media-type="image/jpeg"/>
-<item id="imagem47a_jpg" href="resources/images/imagem47a.jpg" media-type="image/jpeg"/>
-<item id="imagem48_jpg" href="resources/images/imagem48.jpg" media-type="image/jpeg"/>
-<item id="imagem49_jpg" href="resources/images/imagem49.jpg" media-type="image/jpeg"/>
-<item id="imagem5_jpg" href="resources/images/imagem5.jpg" media-type="image/jpeg"/>
-<item id="imagem55_jpg" href="resources/images/imagem55.jpg" media-type="image/jpeg"/>
-<item id="imagem56_jpg" href="resources/images/imagem56.jpg" media-type="image/jpeg"/>
-<item id="imagem58_jpg" href="resources/images/imagem58.jpg" media-type="image/jpeg"/>
-<item id="imagem6_jpg" href="resources/images/imagem6.jpg" media-type="image/jpeg"/>
-<item id="imagem6a_jpg" href="resources/images/imagem6a.jpg" media-type="image/jpeg"/>
-<item id="imagem7_jpg" href="resources/images/imagem7.jpg" media-type="image/jpeg"/>
-<item id="imagem8_jpg" href="resources/images/imagem8.jpg" media-type="image/jpeg"/>
-<item id="imagem9_jpg" href="resources/images/imagem9.jpg" media-type="image/jpeg"/>
-<item id="toc_ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
-<item id="contracapa_xhtml" href="content/contracapa.html" media-type="text/html"/>
-<item id="miolo-obra_xhtml" href="content/miolo-obra.html" media-type="text/html"/>
-<item id="capa_jpg" href="resources/images/capa.jpg" media-type="image/jpeg" properties="cover-image"/>
-<item id="contracapa_jpg" href="resources/images/contracapa.jpg" media-type="image/jpeg"/>
-<item id="cover_jpeg" href="cover.jpeg" media-type="image/jpeg"/>
-<item id="rosto_jpg" href="resources/images/rosto.jpg" media-type="image/jpeg"/>
-</manifest>
-<spine toc="toc_ncx">
-<itemref idref="index_xhtml"/>
-<itemref idref="dedica_xhtml"/>
-<itemref idref="miolo-obra_xhtml"/>
-<itemref idref="contracapa_xhtml"/>
-</spine>
-<guide><reference title="Sumário" href="index.html#toc" type="toc"/></guide></package>
