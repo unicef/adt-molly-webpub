@@ -11,8 +11,11 @@ class MathJaxLoader {
 
   async init() {
     try {
+      // Determine correct config path based on current location
+      const configPath = this.getConfigPath();
+      
       // Load config
-      const response = await fetch('./PNLD/resources/config.json');
+      const response = await fetch(configPath);
       this.config = await response.json();
       
       // Check if MathJax is enabled in config
@@ -23,6 +26,32 @@ class MathJaxLoader {
       }
     } catch (error) {
       console.warn('Could not load config for MathJax', error);
+    }
+  }
+
+  getConfigPath() {
+    const currentPath = window.location.pathname;
+    
+    // If we're in the content directory, use relative path to go up
+    if (currentPath.includes('/PNLD/content/')) {
+      return '../resources/config.json';
+    }
+    // If we're at root level
+    else {
+      return './PNLD/resources/config.json';
+    }
+  }
+
+  getMathJaxPath() {
+    const currentPath = window.location.pathname;
+    
+    // If we're in the content directory, use relative path to go up
+    if (currentPath.includes('/PNLD/content/')) {
+      return '../resources/libs/mathjax/tex-mml-chtml.js';
+    }
+    // If we're at root level
+    else {
+      return './PNLD/resources/libs/mathjax/tex-mml-chtml.js';
     }
   }
 
@@ -54,7 +83,7 @@ class MathJaxLoader {
 
     // Create script element for MathJax (minimal build)
     const script = document.createElement('script');
-    script.src = './PNLD/resources/libs/mathjax/tex-mml-chtml.js';
+    script.src = this.getMathJaxPath();
     script.async = true;
     script.onload = () => {
       console.log('✅ MathJax (minimal) loaded successfully');
