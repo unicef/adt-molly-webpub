@@ -96,8 +96,8 @@ function getResourcePath() {
     return '../resources/';
   }
   
-  // If we're at the root level, use relative path
-  return './resources/';
+  // If we're at the root level, use PNLD path
+  return './PNLD/resources/';
 }
 
 // Function to determine the correct navigation path
@@ -109,8 +109,8 @@ function getNavPath() {
     return '../content/';
   }
   
-  // If we're at the root level, use relative path
-  return './content/';
+  // If we're at the root level, use PNLD path
+  return './PNLD/content/';
 }
 
 const basePath = window.location.pathname.substring(

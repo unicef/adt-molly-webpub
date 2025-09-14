@@ -47,8 +47,8 @@ function getResourcePath() {
         return '../resources/';
     }
     
-    // If we're at the root level, use relative path
-    return './resources/';
+    // If we're at the root level, use PNLD path
+    return './PNLD/resources/';
 }
 
 /**

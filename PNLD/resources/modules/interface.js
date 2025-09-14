@@ -567,7 +567,7 @@ export const loadGlossaryTerms = async () => {
     
     // Determine the correct content path based on current location
     const currentPath = window.location.pathname;
-    const contentPath = currentPath.includes('/content/') ? '../content/' : './content/';
+    const contentPath = currentPath.includes('/content/') ? '../content/' : './PNLD/content/';
     
     const response = await fetch(`${contentPath}i18n/${language}/glossary.json`);
     const data = await response.json();

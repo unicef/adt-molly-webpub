@@ -41,7 +41,7 @@ class TextValidator {
       try {
         // Determine the correct resource path based on current location
         const currentPath = window.location.pathname;
-        const resourcePath = currentPath.includes('/content/') ? '../resources/' : './resources/';
+        const resourcePath = currentPath.includes('/content/') ? '../resources/' : './PNLD/resources/';
         
         // Load the Spanish dictionary directly from the .dic file as text
         const response = await fetch(`${resourcePath}modules/activities/index.dic`);

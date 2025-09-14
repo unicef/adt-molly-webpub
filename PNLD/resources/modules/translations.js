@@ -65,7 +65,7 @@ export const fetchTranslations = async () => {
         const currentLang = state.currentLanguage || 'en';
         // Determine the correct resource path based on current location
         const currentPath = window.location.pathname;
-        const resourcePath = currentPath.includes('/content/') ? '../resources/' : './resources/';
+        const resourcePath = currentPath.includes('/content/') ? '../resources/' : './PNLD/resources/';
         
         // Fetch interface translations with proper error handling
         const interfacePath = `${resourcePath}interface_translations/${currentLang}/interface_translations.json`;
@@ -78,7 +78,7 @@ export const fetchTranslations = async () => {
         const interface_data = await safeJsonParse(interface_response, 'interface translations');
 
         // Fetch content files (texts, audios, videos) from the language-specific path
-        const contentPath = currentPath.includes('/content/') ? '../content/' : './content/';
+        const contentPath = currentPath.includes('/content/') ? '../content/' : './PNLD/content/';
         await fetchContentFiles(`${contentPath}i18n/${currentLang}`);
 
         // Merge translations if interface data exists for current language
@@ -306,7 +306,7 @@ export const updateLanguageDropdownFromAppConfig = async () => {
         try {
             // Determine the correct resource path based on current location
             const currentPath = window.location.pathname;
-            const resourcePath = currentPath.includes('/content/') ? '../resources/' : './resources/';
+            const resourcePath = currentPath.includes('/content/') ? '../resources/' : './PNLD/resources/';
             
             const response = await fetch(`${resourcePath}interface_translations/${lang}/interface_translations.json`);
             if (!response.ok) continue;
