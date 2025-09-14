@@ -160,6 +160,14 @@
       "type": "audio/mpeg"
     },
     {
+      "href": "PNLD/resources/conditional-mathjax.js",
+      "type": "application/javascript"
+    },
+    {
+      "href": "PNLD/resources/libs/mathjax/tex-mml-chtml.js",
+      "type": "application/javascript"
+    },
+    {
       "href": "PNLD/content/navigation/nav.html",
       "type": "text/html"
     }

@@ -17,7 +17,8 @@
     "notepad": false,
     "state": true,
     "characterDisplay": true,
-    "highlight": false
+    "highlight": false,
+    "mathJax": false
   },
   "analytics": {
     "enabled": false,
